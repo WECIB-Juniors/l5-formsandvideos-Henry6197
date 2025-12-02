@@ -3,9 +3,1071 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L5 Assignment</title>
+    <title>L5 Assignment - Questionnaire</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Welcome to Our Questionnaire</h1>
+        <p>Please fill out this short questionnaire to help us understand your preferences.</p>
+        <form action="#" method="post" class="questionnaire-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="120">
+
+            <label for="favorite-color">Favorite Color:</label>
+            <select id="favorite-color" name="favorite-color">
+                <option value="">Select</option>
+                <option value="#000000" style="background-color: #000000; color: white;">Black (W3C)</option>
+                <option value="#0A0A0A" style="background-color: #0A0A0A; color: white;">Almost Black</option>
+                <option value="#141414" style="background-color: #141414; color: white;">Jet Black</option>
+                <option value="#1A1A1A" style="background-color: #1A1A1A; color: white;">Eerie Black</option>
+                <option value="#202020" style="background-color: #202020; color: white;">Charleston Black</option>
+                <option value="#282828" style="background-color: #282828; color: white;">Raisin Black</option>
+                <option value="#303030" style="background-color: #303030; color: white;">Dark Charcoal</option>
+                <option value="#383838" style="background-color: #383838; color: white;">Onyx</option>
+                <option value="#404040" style="background-color: #404040; color: white;">Jet Gray</option>
+                <option value="#454545" style="background-color: #454545; color: white;">Light Black</option>
+                <option value="#484848" style="background-color: #484848; color: white;">Outer Space</option>
+                <option value="#505050" style="background-color: #505050; color: white;">Davys Gray</option>
+                <option value="#585858" style="background-color: #585858; color: white;">Dim Gray</option>
+                <option value="#606060" style="background-color: #606060; color: white;">Granite Gray</option>
+                <option value="#686868" style="background-color: #686868; color: white;">Trolley Gray</option>
+                <option value="#696969" style="background-color: #696969; color: white;">DimGray or DimGrey (W3C)</option>
+                <option value="#707070" style="background-color: #707070; color: white;">Sonic Gray</option>
+                <option value="#757575" style="background-color: #757575; color: white;">Sonic Silver</option>
+                <option value="#787878" style="background-color: #787878; color: white;">Grey Suit</option>
+                <option value="#797979" style="background-color: #797979; color: white;">Platinum Gray</option>
+                <option value="#808080" style="background-color: #808080; color: white;">Gray or Grey (W3C)</option>
+                <option value="#828282" style="background-color: #828282; color: black;">Spanish Gray</option>
+                <option value="#8A8A8A" style="background-color: #8A8A8A; color: black;">Taupe Gray</option>
+                <option value="#8C8C8C" style="background-color: #8C8C8C; color: black;">Dark Gainsboro</option>
+                <option value="#929292" style="background-color: #929292; color: black;">Quick Silver</option>
+                <option value="#9A9A9A" style="background-color: #9A9A9A; color: black;">Suva Gray</option>
+                <option value="#A2A2A2" style="background-color: #A2A2A2; color: black;">Nobel Gray</option>
+                <option value="#A9A9A9" style="background-color: #A9A9A9; color: black;">DarkGray or DarkGrey (W3C)</option>
+                <option value="#AAAAAA" style="background-color: #AAAAAA; color: black;">Silver Sand</option>
+                <option value="#B2B2B2" style="background-color: #B2B2B2; color: black;">Silver Chalice</option>
+                <option value="#B6B6B6" style="background-color: #B6B6B6; color: black;">Metal</option>
+                <option value="#BABABA" style="background-color: #BABABA; color: black;">Alto</option>
+                <option value="#C0C0C0" style="background-color: #C0C0C0; color: black;">Silver (W3C)</option>
+                <option value="#C2C2C2" style="background-color: #C2C2C2; color: black;">Silver Polish</option>
+                <option value="#CACACA" style="background-color: #CACACA; color: black;">Very Light Gray</option>
+                <option value="#CECECE" style="background-color: #CECECE; color: black;">Platinum Silver</option>
+                <option value="#D2D2D2" style="background-color: #D2D2D2; color: black;">Timberwolf</option>
+                <option value="#D3D3D3" style="background-color: #D3D3D3; color: black;">LightGray or LightGrey (W3C)</option>
+                <option value="#DADADA" style="background-color: #DADADA; color: black;">Light Gray Suit</option>
+                <option value="#DCDCDC" style="background-color: #DCDCDC; color: black;">Gainsboro (W3C)</option>
+                <option value="#E2E2E2" style="background-color: #E2E2E2; color: black;">Platinum Mist</option>
+                <option value="#EAEAEA" style="background-color: #EAEAEA; color: black;">Cultured Pearl</option>
+                <option value="#EEEEEE" style="background-color: #EEEEEE; color: black;">White Gray</option>
+                <option value="#F2F2F2" style="background-color: #F2F2F2; color: black;">Alabaster</option>
+                <option value="#F5F5F5" style="background-color: #F5F5F5; color: black;">WhiteSmoke (W3C)</option>
+                <option value="#FFFFFF" style="background-color: #FFFFFF; color: black;">White (W3C)</option>
+                <option value="#FFFAFA" style="background-color: #FFFAFA; color: black;">Snow (W3C)</option>
+                <option value="#C9C1C1" style="background-color: #C9C1C1; color: black;">Steampunk</option>
+                <option value="#5C5858" style="background-color: #5C5858; color: white;">Gray Dolphin</option>
+                <option value="#625D5D" style="background-color: #625D5D; color: white;">Carbon Gray</option>
+                <option value="#FFEEEE" style="background-color: #FFEEEE; color: black;">Lavender Blush</option>
+                <option value="#4C4646" style="background-color: #4C4646; color: white;">Black Cow</option>
+                <option value="#FFDDDD" style="background-color: #FFDDDD; color: black;">Misty Rose</option>
+                <option value="#3B3131" style="background-color: #3B3131; color: white;">Oil</option>
+                <option value="#FFCCCC" style="background-color: #FFCCCC; color: black;">Tea Rose</option>
+                <option value="#3B2F2F" style="background-color: #3B2F2F; color: white;">Dark Coffee</option>
+                <option value="#BC8F8F" style="background-color: #BC8F8F; color: black;">RosyBrown (W3C)</option>
+                <option value="#FFBBBB" style="background-color: #FFBBBB; color: black;">Light Salmon Pink</option>
+                <option value="#997070" style="background-color: #997070; color: white;">Rose Dust</option>
+                <option value="#FFAAAA" style="background-color: #FFAAAA; color: black;">Melon</option>
+                <option value="#FF9999" style="background-color: #FF9999; color: black;">Salmon</option>
+                <option value="#F08080" style="background-color: #F08080; color: black;">LightCoral (W3C)</option>
+                <option value="#FF8888" style="background-color: #FF8888; color: black;">Tulip</option>
+                <option value="#FF7777" style="background-color: #FF7777; color: black;">Coral Pink</option>
+                <option value="#CD5C5C" style="background-color: #CD5C5C; color: white;">IndianRed (W3C)</option>
+                <option value="#FF6666" style="background-color: #FF6666; color: black;">Bittersweet</option>
+                <option value="#FF5555" style="background-color: #FF5555; color: black;">Sunset Orange</option>
+                <option value="#FF4444" style="background-color: #FF4444; color: white;">Red Salsa</option>
+                <option value="#A52A2A" style="background-color: #A52A2A; color: white;">Brown (W3C)</option>
+                <option value="#FF3333" style="background-color: #FF3333; color: white;">Imperial Red</option>
+                <option value="#2F0909" style="background-color: #2F0909; color: white;">Dark Maroon</option>
+                <option value="#B22222" style="background-color: #B22222; color: white;">FireBrick (W3C)</option>
+                <option value="#FF2222" style="background-color: #FF2222; color: white;">Red Orange</option>
+                <option value="#8F0B0B" style="background-color: #8F0B0B; color: white;">Maroon Red</option>
+                <option value="#FF1111" style="background-color: #FF1111; color: white;">Red Pigment</option>
+                <option value="#330000" style="background-color: #330000; color: white;">Rosewood</option>
+                <option value="#440000" style="background-color: #440000; color: white;">Dark Sienna</option>
+                <option value="#550000" style="background-color: #550000; color: white;">Dark Scarlet</option>
+                <option value="#660000" style="background-color: #660000; color: white;">Red Blood</option>
+                <option value="#770000" style="background-color: #770000; color: white;">Barn Red</option>
+                <option value="#800000" style="background-color: #800000; color: white;">Maroon (W3C)</option>
+                <option value="#880000" style="background-color: #880000; color: white;">Stizza</option>
+                <option value="#8B0000" style="background-color: #8B0000; color: white;">DarkRed (W3C)</option>
+                <option value="#990000" style="background-color: #990000; color: white;">Crimson Red</option>
+                <option value="#AA0000" style="background-color: #AA0000; color: white;">Dark Candy Apple Red</option>
+                <option value="#BB0000" style="background-color: #BB0000; color: white;">OU Crimson Red</option>
+                <option value="#CC0000" style="background-color: #CC0000; color: white;">Boston University Red</option>
+                <option value="#DD0000" style="background-color: #DD0000; color: white;">Lust</option>
+                <option value="#EE0000" style="background-color: #EE0000; color: white;">Red RYB</option>
+                <option value="#FF0000" style="background-color: #FF0000; color: white;">Red (W3C)</option>
+                <option value="#733635" style="background-color: #733635; color: white;">Garnet Red</option>
+                <option value="#FFCCCB" style="background-color: #FFCCCB; color: black;">Light Red</option>
+                <option value="#E41B17" style="background-color: #E41B17; color: white;">Love Red</option>
+                <option value="#E55451" style="background-color: #E55451; color: white;">Valentine Red</option>
+                <option value="#F7CAC9" style="background-color: #F7CAC9; color: black;">Rose Quartz</option>
+                <option value="#C11B17" style="background-color: #C11B17; color: white;">Chilli Pepper</option>
+                <option value="#F75D59" style="background-color: #F75D59; color: black;">Bean Red</option>
+                <option value="#E77471" style="background-color: #E77471; color: black;">Pink Coral</option>
+                <option value="#F98B88" style="background-color: #F98B88; color: black;">Peach Pink</option>
+                <option value="#FBBBB9" style="background-color: #FBBBB9; color: black;">Deep Rose</option>
+                <option value="#C5908E" style="background-color: #C5908E; color: black;">Khaki Rose</option>
+                <option value="#C24641" style="background-color: #C24641; color: white;">Cherry Red</option>
+                <option value="#C4AEAD" style="background-color: #C4AEAD; color: black;">Silver Pink</option>
+                <option value="#FBCFCD" style="background-color: #FBCFCD; color: black;">Light Rose</option>
+                <option value="#E8ADAA" style="background-color: #E8ADAA; color: black;">Rose</option>
+                <option value="#F62217" style="background-color: #F62217; color: white;">Ruby Red</option>
+                <option value="#7F5A58" style="background-color: #7F5A58; color: white;">Puce</option>
+                <option value="#E42217" style="background-color: #E42217; color: white;">Lava Red</option>
+                <option value="#FFDFDD" style="background-color: #FFDFDD; color: black;">Pink Bubble Gum</option>
+                <option value="#B38481" style="background-color: #B38481; color: black;">Rosy Pink</option>
+                <option value="#EE1100" style="background-color: #EE1100; color: white;">Scarlet</option>
+                <option value="#F62817" style="background-color: #F62817; color: white;">Fire Engine Red</option>
+                <option value="#C9A9A6" style="background-color: #C9A9A6; color: black;">Dusty Rose</option>
+                <option value="#43302E" style="background-color: #43302E; color: white;">Old Burgundy</option>
+                <option value="#B21807" style="background-color: #B21807; color: white;">Tomato Sauce Red</option>
+                <option value="#FD1C03" style="background-color: #FD1C03; color: white;">Neon Red</option>
+                <option value="#FFE4E1" style="background-color: #FFE4E1; color: black;">MistyRose (W3C)</option>
+                <option value="#FA8072" style="background-color: #FA8072; color: black;">Salmon (W3C)</option>
+                <option value="#ECC5C0" style="background-color: #ECC5C0; color: black;">Rose Gold</option>
+                <option value="#3D3635" style="background-color: #3D3635; color: white;">Gray Brown</option>
+                <option value="#FF8674" style="background-color: #FF8674; color: black;">Salmon Pink</option>
+                <option value="#DC381F" style="background-color: #DC381F; color: white;">Grapefruit</option>
+                <option value="#9E4638" style="background-color: #9E4638; color: white;">Coral Brown</option>
+                <option value="#E6C7C2" style="background-color: #E6C7C2; color: black;">Gold Pink</option>
+                <option value="#FF2400" style="background-color: #FF2400; color: white;">Scarlet Red</option>
+                <option value="#FF6347" style="background-color: #FF6347; color: black;">Tomato (W3C)</option>
+                <option value="#DD2200" style="background-color: #DD2200; color: white;">Vermilion</option>
+                <option value="#F6C6BD" style="background-color: #F6C6BD; color: black;">Warm Pink</option>
+                <option value="#954535" style="background-color: #954535; color: white;">Chestnut</option>
+                <option value="#3D0C02" style="background-color: #3D0C02; color: white;">Black Bean</option>
+                <option value="#E55B3C" style="background-color: #E55B3C; color: black;">Shocking Orange</option>
+                <option value="#A05544" style="background-color: #A05544; color: white;">Deep Amber</option>
+                <option value="#C34A2C" style="background-color: #C34A2C; color: white;">Chestnut Red</option>
+                <option value="#736F6E" style="background-color: #736F6E; color: white;">Alien Gray</option>
+                <option value="#6D6968" style="background-color: #6D6968; color: white;">Cloudy Gray</option>
+                <option value="#49413F" style="background-color: #49413F; color: white;">Western Charcoal</option>
+                <option value="#2B1B17" style="background-color: #2B1B17; color: white;">Midnight</option>
+                <option value="#F89880" style="background-color: #F89880; color: black;">Pink Orange</option>
+                <option value="#726E6D" style="background-color: #726E6D; color: white;">Smokey Gray</option>
+                <option value="#551606" style="background-color: #551606; color: white;">Blood Night</option>
+                <option value="#622F22" style="background-color: #622F22; color: white;">Red Brown</option>
+                <option value="#CB6D51" style="background-color: #CB6D51; color: black;">Copper Red</option>
+                <option value="#E67451" style="background-color: #E67451; color: black;">Sunrise Orange</option>
+                <option value="#666362" style="background-color: #666362; color: white;">Ash Gray</option>
+                <option value="#FF6633" style="background-color: #FF6633; color: black;">Outrageous Orange</option>
+                <option value="#CC3300" style="background-color: #CC3300; color: white;">Mahogany</option>
+                <option value="#E9967A" style="background-color: #E9967A; color: black;">DarkSalmon (W3C)</option>
+                <option value="#C36241" style="background-color: #C36241; color: white;">Rust</option>
+                <option value="#F88158" style="background-color: #F88158; color: black;">Basket Ball Orange</option>
+                <option value="#FF7F50" style="background-color: #FF7F50; color: black;">Coral (W3C)</option>
+                <option value="#FE632A" style="background-color: #FE632A; color: black;">Fluro Orange</option>
+                <option value="#FF4500" style="background-color: #FF4500; color: white;">OrangeRed (W3C)</option>
+                <option value="#FF7744" style="background-color: #FF7744; color: black;">Atomic Tangerine</option>
+                <option value="#FFA07A" style="background-color: #FFA07A; color: black;">LightSalmon (W3C)</option>
+                <option value="#FF5F1F" style="background-color: #FF5F1F; color: black;">Bright Orange</option>
+                <option value="#837E7C" style="background-color: #837E7C; color: white;">Granite</option>
+                <option value="#7E3517" style="background-color: #7E3517; color: white;">Blood Red</option>
+                <option value="#B83C08" style="background-color: #B83C08; color: white;">Ginger Red</option>
+                <option value="#FF8855" style="background-color: #FF8855; color: black;">Mango Tango</option>
+                <option value="#F9966B" style="background-color: #F9966B; color: black;">Light Salmon Rose</option>
+                <option value="#DA8A67" style="background-color: #DA8A67; color: black;">Light Copper</option>
+                <option value="#C47451" style="background-color: #C47451; color: black;">Orange Salmon</option>
+                <option value="#E78A61" style="background-color: #E78A61; color: black;">Tangerine</option>
+                <option value="#7F462C" style="background-color: #7F462C; color: white;">Sepia</option>
+                <option value="#7E3817" style="background-color: #7E3817; color: white;">Sangria</option>
+                <option value="#A0522D" style="background-color: #A0522D; color: white;">Sienna (W3C)</option>
+                <option value="#FF9966" style="background-color: #FF9966; color: black;">Tan</option>
+                <option value="#C04000" style="background-color: #C04000; color: white;">Mahogany</option>
+                <option value="#FF5500" style="background-color: #FF5500; color: white;">International Orange</option>
+                <option value="#FF8040" style="background-color: #FF8040; color: black;">Mango Orange</option>
+                <option value="#F87431" style="background-color: #F87431; color: black;">Construction Cone Orange</option>
+                <option value="#B1907F" style="background-color: #B1907F; color: black;">Pastel Brown</option>
+                <option value="#EB5406" style="background-color: #EB5406; color: white;">Red Gold</option>
+                <option value="#E66C2C" style="background-color: #E66C2C; color: black;">Halloween Orange</option>
+                <option value="#C9C0BB" style="background-color: #C9C0BB; color: black;">Pale Silver</option>
+                <option value="#A55D35" style="background-color: #A55D35; color: white;">Brown Rust</option>
+                <option value="#FFDDCA" style="background-color: #FFDDCA; color: black;">Unbleached Silk</option>
+                <option value="#BB4400" style="background-color: #BB4400; color: white;">Sienna</option>
+                <option value="#8A4117" style="background-color: #8A4117; color: white;">Dark Sienna</option>
+                <option value="#FFAA77" style="background-color: #FFAA77; color: black;">Macaroni And Cheese</option>
+                <option value="#C35817" style="background-color: #C35817; color: white;">Red Fox</option>
+                <option value="#FF7722" style="background-color: #FF7722; color: black;">Indian Saffron</option>
+                <option value="#E56717" style="background-color: #E56717; color: black;">Papaya Orange</option>
+                <option value="#B76734" style="background-color: #B76734; color: white;">Petra Gold</option>
+                <option value="#FF6600" style="background-color: #FF6600; color: black;">Blaze Orange</option>
+                <option value="#FF6700" style="background-color: #FF6700; color: black;">Neon Orange</option>
+                <option value="#F87217" style="background-color: #F87217; color: black;">Pumpkin Orange</option>
+                <option value="#5C3317" style="background-color: #5C3317; color: white;">Bakers Brown</option>
+                <option value="#6F4E37" style="background-color: #6F4E37; color: white;">Coffee</option>
+                <option value="#FFF5EE" style="background-color: #FFF5EE; color: black;">SeaShell (W3C)</option>
+                <option value="#F8B88B" style="background-color: #F8B88B; color: black;">Pastel Orange</option>
+                <option value="#D2691E" style="background-color: #D2691E; color: white;">Chocolate (W3C)</option>
+                <option value="#8B4513" style="background-color: #8B4513; color: white;">SaddleBrown (W3C)</option>
+                <option value="#EDC9AF" style="background-color: #EDC9AF; color: black;">Desert Sand</option>
+                <option value="#FFCBA4" style="background-color: #FFCBA4; color: black;">Deep Peach</option>
+                <option value="#FFBB88" style="background-color: #FFBB88; color: black;">Apricot</option>
+                <option value="#AA5511" style="background-color: #AA5511; color: white;">Saddle Brown</option>
+                <option value="#AA6C39" style="background-color: #AA6C39; color: white;">Dark Gold</option>
+                <option value="#AB784E" style="background-color: #AB784E; color: black;">Dark Almond</option>
+                <option value="#483C32" style="background-color: #483C32; color: white;">Taupe</option>
+                <option value="#A97142" style="background-color: #A97142; color: white;">Metallic Bronze</option>
+                <option value="#835C3B" style="background-color: #835C3B; color: white;">Brown Bear</option>
+                <option value="#F4A460" style="background-color: #F4A460; color: black;">SandyBrown (W3C)</option>
+                <option value="#F88017" style="background-color: #F88017; color: black;">Carrot Orange</option>
+                <option value="#FF7700" style="background-color: #FF7700; color: black;">Pumpkin</option>
+                <option value="#FFDAB9" style="background-color: #FFDAB9; color: black;">PeachPuff (W3C)</option>
+                <option value="#CA762B" style="background-color: #CA762B; color: black;">Pumpkin Pie</option>
+                <option value="#B5651D" style="background-color: #B5651D; color: white;">Light Brown</option>
+                <option value="#C88141" style="background-color: #C88141; color: black;">Tiger Orange</option>
+                <option value="#FF7900" style="background-color: #FF7900; color: black;">Safety Orange</option>
+                <option value="#EE9A4D" style="background-color: #EE9A4D; color: black;">Brown Sand</option>
+                <option value="#B87333" style="background-color: #B87333; color: black;">Copper</option>
+                <option value="#FEF0E3" style="background-color: #FEF0E3; color: black;">OldLace (W3C)</option>
+                <option value="#E2A76F" style="background-color: #E2A76F; color: black;">Brown Sugar</option>
+                <option value="#CD853F" style="background-color: #CD853F; color: black;">Peru (W3C)</option>
+                <option value="#CD7F32" style="background-color: #CD7F32; color: black;">Bronze</option>
+                <option value="#E1D9D1" style="background-color: #E1D9D1; color: black;">Dark White</option>
+                <option value="#FAF0E6" style="background-color: #FAF0E6; color: black;">Linen (W3C)</option>
+                <option value="#FFEEDD" style="background-color: #FFEEDD; color: black;">Blanched Almond</option>
+                <option value="#EEDDCC" style="background-color: #EEDDCC; color: black;">Almond</option>
+                <option value="#DDCCBB" style="background-color: #DDCCBB; color: black;">Desert Sand</option>
+                <option value="#CCBBAA" style="background-color: #CCBBAA; color: black;">Dust Storm</option>
+                <option value="#BBAA99" style="background-color: #BBAA99; color: black;">Pale Taupe</option>
+                <option value="#AA9988" style="background-color: #AA9988; color: black;">Grullo</option>
+                <option value="#998877" style="background-color: #998877; color: black;">Shadow</option>
+                <option value="#887766" style="background-color: #887766; color: white;">Beaver</option>
+                <option value="#FFDDBB" style="background-color: #FFDDBB; color: black;">Peach Puff</option>
+                <option value="#776655" style="background-color: #776655; color: white;">Pastel Brown</option>
+                <option value="#665544" style="background-color: #665544; color: white;">Umber</option>
+                <option value="#554433" style="background-color: #554433; color: white;">Van Dyke Brown</option>
+                <option value="#FFCC99" style="background-color: #FFCC99; color: black;">Peach</option>
+                <option value="#443322" style="background-color: #443322; color: white;">Dark Lava</option>
+                <option value="#332211" style="background-color: #332211; color: white;">Bistre</option>
+                <option value="#654321" style="background-color: #654321; color: white;">Dark Brown</option>
+                <option value="#704214" style="background-color: #704214; color: white;">Sepia Brown</option>
+                <option value="#CC6600" style="background-color: #CC6600; color: white;">Sedona</option>
+                <option value="#FED8B1" style="background-color: #FED8B1; color: black;">Light Orange</option>
+                <option value="#FBD5AB" style="background-color: #FBD5AB; color: black;">Coral Peach</option>
+                <option value="#FF8800" style="background-color: #FF8800; color: black;">Dark Orange</option>
+                <option value="#9F8C76" style="background-color: #9F8C76; color: black;">Dark Beige</option>
+                <option value="#FFE4C4" style="background-color: #FFE4C4; color: black;">Bisque (W3C)</option>
+                <option value="#644117" style="background-color: #644117; color: white;">Pullman Brown</option>
+                <option value="#FAF5EF" style="background-color: #FAF5EF; color: black;">Rice</option>
+                <option value="#C19A6B" style="background-color: #C19A6B; color: black;">Camel Brown</option>
+                <option value="#B86500" style="background-color: #B86500; color: white;">Dark Bisque</option>
+                <option value="#FF8C00" style="background-color: #FF8C00; color: black;">DarkOrange (W3C)</option>
+                <option value="#786D5F" style="background-color: #786D5F; color: white;">Sandstone</option>
+                <option value="#DEB887" style="background-color: #DEB887; color: black;">BurlyWood (W3C)</option>
+                <option value="#7F5217" style="background-color: #7F5217; color: white;">Red Dirt</option>
+                <option value="#FAEBD7" style="background-color: #FAEBD7; color: black;">AntiqueWhite (W3C)</option>
+                <option value="#D2B48C" style="background-color: #D2B48C; color: black;">Tan (W3C)</option>
+                <option value="#FFAE42" style="background-color: #FFAE42; color: black;">Yellow Orange or Orange Yellow</option>
+                <option value="#996622" style="background-color: #996622; color: white;">Bronze</option>
+                <option value="#FFA62F" style="background-color: #FFA62F; color: black;">Cantaloupe</option>
+                <option value="#B06500" style="background-color: #B06500; color: white;">Ginger</option>
+                <option value="#804A00" style="background-color: #804A00; color: white;">Dark Bronze</option>
+                <option value="#FFF0DB" style="background-color: #FFF0DB; color: black;">Light Beige</option>
+                <option value="#513B1C" style="background-color: #513B1C; color: white;">Milk Chocolate</option>
+                <option value="#906E3E" style="background-color: #906E3E; color: white;">Khaki Brown</option>
+                <option value="#FFDEAD" style="background-color: #FFDEAD; color: black;">NavajoWhite (W3C)</option>
+                <option value="#FFEBCD" style="background-color: #FFEBCD; color: black;">BlanchedAlmond (W3C)</option>
+                <option value="#FFDDAA" style="background-color: #FFDDAA; color: black;">Navajo White</option>
+                <option value="#FF9900" style="background-color: #FF9900; color: black;">Orange</option>
+                <option value="#D29F51" style="background-color: #D29F51; color: black;">Champagne Gold</option>
+                <option value="#E6BF83" style="background-color: #E6BF83; color: black;">Deer Brown</option>
+                <option value="#966F33" style="background-color: #966F33; color: white;">Wood</option>
+                <option value="#F2BB66" style="background-color: #F2BB66; color: black;">Macaroni and Cheese</option>
+                <option value="#F7E7CE" style="background-color: #F7E7CE; color: black;">Champagne</option>
+                <option value="#FFEFD5" style="background-color: #FFEFD5; color: black;">PapayaWhip (W3C)</option>
+                <option value="#F8F0E3" style="background-color: #F8F0E3; color: black;">Off White</option>
+                <option value="#C8AD7F" style="background-color: #C8AD7F; color: black;">Light French Beige</option>
+                <option value="#FFE4B5" style="background-color: #FFE4B5; color: black;">Moccasin (W3C)</option>
+                <option value="#EBA832" style="background-color: #EBA832; color: black;">Marigold</option>
+                <option value="#FFAA11" style="background-color: #FFAA11; color: black;">Yellow Orange</option>
+                <option value="#FFA500" style="background-color: #FFA500; color: black;">Orange (W3C)</option>
+                <option value="#FFA600" style="background-color: #FFA600; color: black;">Cheese Orange</option>
+                <option value="#F5DEB3" style="background-color: #F5DEB3; color: black;">Wheat (W3C)</option>
+                <option value="#FFE5B4" style="background-color: #FFE5B4; color: black;">Peach</option>
+                <option value="#FAF0DD" style="background-color: #FAF0DD; color: black;">Soft Ivory</option>
+                <option value="#C58917" style="background-color: #C58917; color: black;">Cinnamon</option>
+                <option value="#493D26" style="background-color: #493D26; color: white;">Mocha</option>
+                <option value="#3D3C3A" style="background-color: #3D3C3A; color: white;">Iridium</option>
+                <option value="#FFFAF0" style="background-color: #FFFAF0; color: black;">FloralWhite (W3C)</option>
+                <option value="#D1D0CE" style="background-color: #D1D0CE; color: black;">Gray Goose</option>
+                <option value="#F3E3C3" style="background-color: #F3E3C3; color: black;">Golden Silk</option>
+                <option value="#FFEECC" style="background-color: #FFEECC; color: black;">Champagne</option>
+                <option value="#FFAA00" style="background-color: #FFAA00; color: black;">Orange Peel</option>
+                <option value="#E5E4E2" style="background-color: #E5E4E2; color: black;">Platinum</option>
+                <option value="#E8A317" style="background-color: #E8A317; color: black;">School Bus Yellow</option>
+                <option value="#FBB117" style="background-color: #FBB117; color: black;">Beer</option>
+                <option value="#C68E17" style="background-color: #C68E17; color: black;">Caramel</option>
+                <option value="#FFBB22" style="background-color: #FFBB22; color: black;">Saffron</option>
+                <option value="#EDE6D6" style="background-color: #EDE6D6; color: black;">White Chocolate</option>
+                <option value="#E9AB17" style="background-color: #E9AB17; color: black;">Bee Yellow</option>
+                <option value="#FFF8E7" style="background-color: #FFF8E7; color: black;">Cosmic Latte</option>
+                <option value="#FBB917" style="background-color: #FBB917; color: black;">Saffron</option>
+                <option value="#B8860B" style="background-color: #B8860B; color: black;">DarkGoldenRod (W3C)</option>
+                <option value="#DAA520" style="background-color: #DAA520; color: black;">GoldenRod (W3C)</option>
+                <option value="#4A412A" style="background-color: #4A412A; color: white;">Dark Grayish Olive</option>
+                <option value="#D4A017" style="background-color: #D4A017; color: black;">Orange Gold</option>
+                <option value="#473810" style="background-color: #473810; color: white;">Dark Hazel Brown</option>
+                <option value="#F9F6EE" style="background-color: #F9F6EE; color: black;">Bone White</option>
+                <option value="#F0E9D6" style="background-color: #F0E9D6; color: black;">Creamy White</option>
+                <option value="#FFBB00" style="background-color: #FFBB00; color: black;">Selective Yellow</option>
+                <option value="#FFCE44" style="background-color: #FFCE44; color: black;">Chrome Gold</option>
+                <option value="#806517" style="background-color: #806517; color: white;">Oak Brown</option>
+                <option value="#FDBD01" style="background-color: #FDBD01; color: black;">Neon Gold</option>
+                <option value="#AF9B60" style="background-color: #AF9B60; color: black;">Bullet Shell</option>
+                <option value="#FFBF00" style="background-color: #FFBF00; color: black;">Amber</option>
+                <option value="#C9AE5D" style="background-color: #C9AE5D; color: black;">Bronze Gold</option>
+                <option value="#FFCC33" style="background-color: #FFCC33; color: black;">Sunglow</option>
+                <option value="#F8F6F0" style="background-color: #F8F6F0; color: black;">Pearl White</option>
+                <option value="#C2B280" style="background-color: #C2B280; color: black;">Sand</option>
+                <option value="#F0E2B6" style="background-color: #F0E2B6; color: black;">Dark Blonde</option>
+                <option value="#E9E4D4" style="background-color: #E9E4D4; color: black;">Ash White</option>
+                <option value="#D4AF37" style="background-color: #D4AF37; color: black;">Metallic Gold</option>
+                <option value="#E1AD01" style="background-color: #E1AD01; color: black;">Mustard</option>
+                <option value="#F6BE00" style="background-color: #F6BE00; color: black;">Deep Yellow</option>
+                <option value="#FBE7A1" style="background-color: #FBE7A1; color: black;">Golden Blonde</option>
+                <option value="#FFDB58" style="background-color: #FFDB58; color: black;">Mustard Yellow</option>
+                <option value="#FFF9E3" style="background-color: #FFF9E3; color: black;">Egg Shell</option>
+                <option value="#827B60" style="background-color: #827B60; color: white;">Army Brown</option>
+                <option value="#C7A317" style="background-color: #C7A317; color: black;">Cookie Brown</option>
+                <option value="#C6BA8B" style="background-color: #C6BA8B; color: black;">Soft Hazel</option>
+                <option value="#8E7618" style="background-color: #8E7618; color: white;">Hazel</option>
+                <option value="#9B9A96" style="background-color: #9B9A96; color: black;">Cold Metal</option>
+                <option value="#FFF8DC" style="background-color: #FFF8DC; color: black;">Cornsilk (W3C)</option>
+                <option value="#FFEEAA" style="background-color: #FFEEAA; color: black;">Pale Goldenrod</option>
+                <option value="#887733" style="background-color: #887733; color: white;">Dark Khaki</option>
+                <option value="#FFCC00" style="background-color: #FFCC00; color: black;">Mikado Yellow</option>
+                <option value="#FFFEFA" style="background-color: #FFFEFA; color: black;">Half White</option>
+                <option value="#FDD017" style="background-color: #FDD017; color: black;">Bright Gold</option>
+                <option value="#F3E5AB" style="background-color: #F3E5AB; color: black;">Vanilla</option>
+                <option value="#EAC117" style="background-color: #EAC117; color: black;">Golden Brown</option>
+                <option value="#C8B560" style="background-color: #C8B560; color: black;">Fall Leaf Brown</option>
+                <option value="#FFDD44" style="background-color: #FFDD44; color: black;">Supernova</option>
+                <option value="#FFE87C" style="background-color: #FFE87C; color: black;">Sun Yellow</option>
+                <option value="#EFEBD8" style="background-color: #EFEBD8; color: black;">Warm White</option>
+                <option value="#F1E5AC" style="background-color: #F1E5AC; color: black;">Light Gold</option>
+                <option value="#EDDA74" style="background-color: #EDDA74; color: black;">Cardboard Brown</option>
+                <option value="#FFD700" style="background-color: #FFD700; color: black;">Gold (W3C)</option>
+                <option value="#FFD801" style="background-color: #FFD801; color: black;">Rubber Ducky Yellow</option>
+                <option value="#FBF6D9" style="background-color: #FBF6D9; color: black;">Blonde</option>
+                <option value="#F9DB24" style="background-color: #F9DB24; color: black;">Bold Yellow</option>
+                <option value="#827839" style="background-color: #827839; color: white;">Dark Moccasin</option>
+                <option value="#FFDD00" style="background-color: #FFDD00; color: black;">Cyber Yellow</option>
+                <option value="#B5A642" style="background-color: #B5A642; color: black;">Brass</option>
+                <option value="#ECE5B6" style="background-color: #ECE5B6; color: black;">Tan Brown</option>
+                <option value="#E8E4C9" style="background-color: #E8E4C9; color: black;">Dirty White</option>
+                <option value="#FFDF00" style="background-color: #FFDF00; color: black;">Golden Yellow</option>
+                <option value="#665D1E" style="background-color: #665D1E; color: white;">Antique Bronze</option>
+                <option value="#EED202" style="background-color: #EED202; color: black;">Safety Yellow</option>
+                <option value="#C9BE62" style="background-color: #C9BE62; color: black;">Ginger Brown</option>
+                <option value="#F2F0DF" style="background-color: #F2F0DF; color: black;">White Yellow</option>
+                <option value="#FFFACD" style="background-color: #FFFACD; color: black;">LemonChiffon (W3C)</option>
+                <option value="#F0E68C" style="background-color: #F0E68C; color: black;">Khaki (W3C)</option>
+                <option value="#FFEE55" style="background-color: #FFEE55; color: black;">Paris Daisy</option>
+                <option value="#FFF380" style="background-color: #FFF380; color: black;">Corn Yellow</option>
+                <option value="#EDE275" style="background-color: #EDE275; color: black;">Harvest Gold</option>
+                <option value="#8A865D" style="background-color: #8A865D; color: black;">Khaki Green</option>
+                <option value="#EEE8AA" style="background-color: #EEE8AA; color: black;">PaleGoldenRod (W3C)</option>
+                <option value="#93917C" style="background-color: #93917C; color: black;">Millennium Jade</option>
+                <option value="#F5E216" style="background-color: #F5E216; color: black;">Banana Yellow</option>
+                <option value="#BCB88A" style="background-color: #BCB88A; color: black;">Sage</option>
+                <option value="#8B8000" style="background-color: #8B8000; color: white;">Dark Yellow</option>
+                <option value="#BDB76B" style="background-color: #BDB76B; color: black;">DarkKhaki (W3C)</option>
+                <option value="#FEF250" style="background-color: #FEF250; color: black;">Lemon Yellow</option>
+                <option value="#FFEE00" style="background-color: #FFEE00; color: black;">Aureolin</option>
+                <option value="#FFEF00" style="background-color: #FFEF00; color: black;">Canary Yellow</option>
+                <option value="#FFFDD0" style="background-color: #FFFDD0; color: black;">Cream White</option>
+                <option value="#BAB86C" style="background-color: #BAB86C; color: black;">Olive Green</option>
+                <option value="#FAF884" style="background-color: #FAF884; color: black;">Pastel Yellow</option>
+                <option value="#FBFBF9" style="background-color: #FBFBF9; color: black;">Cotton</option>
+                <option value="#B6B6B4" style="background-color: #B6B6B4; color: black;">Gray Cloud</option>
+                <option value="#848482" style="background-color: #848482; color: black;">Battleship Gray</option>
+                <option value="#FFFFF7" style="background-color: #FFFFF7; color: black;">Light White</option>
+                <option value="#FFFFF4" style="background-color: #FFFFF4; color: black;">White Gold</option>
+                <option value="#FFFFF0" style="background-color: #FFFFF0; color: black;">Ivory (W3C)</option>
+                <option value="#FFFFEE" style="background-color: #FFFFEE; color: black;">Cosmic Latte</option>
+                <option value="#F5F5DC" style="background-color: #F5F5DC; color: black;">Beige (W3C)</option>
+                <option value="#FFFFE0" style="background-color: #FFFFE0; color: black;">LightYellow (W3C)</option>
+                <option value="#FFFFDD" style="background-color: #FFFFDD; color: black;">Light Yellow</option>
+                <option value="#FAFAD2" style="background-color: #FAFAD2; color: black;">LightGoldenRodYellow (W3C)</option>
+                <option value="#FFFFCC" style="background-color: #FFFFCC; color: black;">Cream</option>
+                <option value="#FFFFC2" style="background-color: #FFFFC2; color: black;">Parchment</option>
+                <option value="#FFFFBB" style="background-color: #FFFFBB; color: black;">Creme</option>
+                <option value="#FFFFBB" style="background-color: #FFFFBB; color: black;">Lemon Chiffon</option>
+                <option value="#FFFFAA" style="background-color: #FFFFAA; color: black;">Pale Yellow</option>
+                <option value="#FFFF99" style="background-color: #FFFF99; color: black;">Canary</option>
+                <option value="#FFFF88" style="background-color: #FFFF88; color: black;">Icterine</option>
+                <option value="#FFFF77" style="background-color: #FFFF77; color: black;">Lemon Yellow</option>
+                <option value="#FFFF66" style="background-color: #FFFF66; color: black;">Unmellow Yellow</option>
+                <option value="#FFFF55" style="background-color: #FFFF55; color: black;">Maximum Yellow</option>
+                <option value="#FFFF44" style="background-color: #FFFF44; color: black;">Laser Lemon</option>
+                <option value="#FFFF33" style="background-color: #FFFF33; color: black;">Neon Yellow</option>
+                <option value="#FFFF22" style="background-color: #FFFF22; color: black;">Daffodil</option>
+                <option value="#FFFF11" style="background-color: #FFFF11; color: black;">Lemon Yellow</option>
+                <option value="#808000" style="background-color: #808000; color: white;">Olive (W3C)</option>
+                <option value="#FFFF00" style="background-color: #FFFF00; color: black;">Yellow (W3C)</option>
+                <option value="#FFFF00" style="background-color: #FFFF00; color: black;">Yellow</option>
+                <option value="#EEFF00" style="background-color: #EEFF00; color: black;">Lemon Glacier</option>
+                <option value="#EEFF11" style="background-color: #EEFF11; color: black;">Yellow Green</option>
+                <option value="#B8BC86" style="background-color: #B8BC86; color: black;">Light Olive Green</option>
+                <option value="#DAEE01" style="background-color: #DAEE01; color: black;">Neon Yellow Green</option>
+                <option value="#E2F516" style="background-color: #E2F516; color: black;">Yellow Green Grosbeak</option>
+                <option value="#B0BF1A" style="background-color: #B0BF1A; color: black;">Acid Green</option>
+                <option value="#B2C248" style="background-color: #B2C248; color: black;">Avocado Green</option>
+                <option value="#DDFF00" style="background-color: #DDFF00; color: black;">Chartreuse Yellow</option>
+                <option value="#DDFF00" style="background-color: #DDFF00; color: black;">Electric Lime</option>
+                <option value="#CCEE00" style="background-color: #CCEE00; color: black;">Electric Lime</option>
+                <option value="#BBDD00" style="background-color: #BBDD00; color: black;">Volt Green</option>
+                <option value="#4B5320" style="background-color: #4B5320; color: white;">Army Green</option>
+                <option value="#AACC00" style="background-color: #AACC00; color: black;">Sheen Green</option>
+                <option value="#99BB00" style="background-color: #99BB00; color: black;">Apple Green</option>
+                <option value="#728C00" style="background-color: #728C00; color: white;">Venom Green</option>
+                <option value="#9DC209" style="background-color: #9DC209; color: black;">Pistachio Green</option>
+                <option value="#88AA00" style="background-color: #88AA00; color: black;">Limerick</option>
+                <option value="#CCFF00" style="background-color: #CCFF00; color: black;">Lime</option>
+                <option value="#779900" style="background-color: #779900; color: white;">Olive Drab Seven</option>
+                <option value="#8FB31D" style="background-color: #8FB31D; color: black;">Citron Green</option>
+                <option value="#778844" style="background-color: #778844; color: white;">Olive Drab</option>
+                <option value="#668800" style="background-color: #668800; color: white;">Avocado</option>
+                <option value="#BDF516" style="background-color: #BDF516; color: black;">Chameleon Green</option>
+                <option value="#8A9A5B" style="background-color: #8A9A5B; color: black;">Moss Green</option>
+                <option value="#667C26" style="background-color: #667C26; color: white;">Fern Green</option>
+                <option value="#E3F9A6" style="background-color: #E3F9A6; color: black;">Organic Brown</option>
+                <option value="#BBFF00" style="background-color: #BBFF00; color: black;">Spring Bud</option>
+                <option value="#A1C935" style="background-color: #A1C935; color: black;">Salad Green</option>
+                <option value="#557700" style="background-color: #557700; color: white;">Sap Green</option>
+                <option value="#CCFB5D" style="background-color: #CCFB5D; color: black;">Tea Green</option>
+                <option value="#BCE954" style="background-color: #BCE954; color: black;">Slime Green</option>
+                <option value="#ADF802" style="background-color: #ADF802; color: black;">Lemon Green</option>
+                <option value="#4E5B31" style="background-color: #4E5B31; color: white;">Military Green</option>
+                <option value="#E8F1D4" style="background-color: #E8F1D4; color: black;">Chrome White</option>
+                <option value="#9CB071" style="background-color: #9CB071; color: black;">Iguana Green</option>
+                <option value="#B1FB17" style="background-color: #B1FB17; color: black;">Dull Green Yellow</option>
+                <option value="#6B8E23" style="background-color: #6B8E23; color: white;">OliveDrab (W3C)</option>
+                <option value="#9ACD32" style="background-color: #9ACD32; color: black;">YellowGreen (W3C)</option>
+                <option value="#446600" style="background-color: #446600; color: white;">Dark Moss Green</option>
+                <option value="#AAFF00" style="background-color: #AAFF00; color: black;">Green Yellow</option>
+                <option value="#556B2F" style="background-color: #556B2F; color: white;">DarkOliveGreen (W3C)</option>
+                <option value="#848B79" style="background-color: #848B79; color: black;">Sage Green</option>
+                <option value="#ADFF2F" style="background-color: #ADFF2F; color: black;">GreenYellow (W3C)</option>
+                <option value="#335500" style="background-color: #335500; color: white;">Forest Green Traditional</option>
+                <option value="#99FF00" style="background-color: #99FF00; color: black;">Chartreuse</option>
+                <option value="#98F516" style="background-color: #98F516; color: black;">Aloe Vera Green</option>
+                <option value="#6AA121" style="background-color: #6AA121; color: black;">Green Onion</option>
+                <option value="#3A5F0B" style="background-color: #3A5F0B; color: white;">Green Leaves</option>
+                <option value="#88FF00" style="background-color: #88FF00; color: black;">Lawn Green</option>
+                <option value="#EEFFDD" style="background-color: #EEFFDD; color: black;">Nyanza</option>
+                <option value="#87F717" style="background-color: #87F717; color: black;">Yellow Lawn Green</option>
+                <option value="#224400" style="background-color: #224400; color: white;">Cal Poly Green</option>
+                <option value="#7FFF00" style="background-color: #7FFF00; color: black;">Chartreuse (W3C)</option>
+                <option value="#7FE817" style="background-color: #7FE817; color: black;">Hummingbird Green</option>
+                <option value="#7CFC00" style="background-color: #7CFC00; color: black;">LawnGreen (W3C)</option>
+                <option value="#6CC417" style="background-color: #6CC417; color: black;">Alien Green</option>
+                <option value="#78866B" style="background-color: #78866B; color: white;">Camouflage Green</option>
+                <option value="#89C35C" style="background-color: #89C35C; color: black;">Green Peas</option>
+                <option value="#437C17" style="background-color: #437C17; color: white;">Seaweed Green</option>
+                <option value="#66FF00" style="background-color: #66FF00; color: black;">Bright Green</option>
+                <option value="#555D50" style="background-color: #555D50; color: white;">Ebony</option>
+                <option value="#6CBB3C" style="background-color: #6CBB3C; color: black;">Green Snake</option>
+                <option value="#85BB65" style="background-color: #85BB65; color: black;">Dollar Bill Green</option>
+                <option value="#3F9B0B" style="background-color: #3F9B0B; color: white;">Grass Green</option>
+                <option value="#A2AD9C" style="background-color: #A2AD9C; color: black;">Gray Green</option>
+                <option value="#668855" style="background-color: #668855; color: white;">Fern Green</option>
+                <option value="#DDFFCC" style="background-color: #DDFFCC; color: black;">Celadon</option>
+                <option value="#254117" style="background-color: #254117; color: white;">Dark Forest Green</option>
+                <option value="#113300" style="background-color: #113300; color: white;">Deep Green</option>
+                <option value="#52D017" style="background-color: #52D017; color: black;">Pea Green</option>
+                <option value="#59E817" style="background-color: #59E817; color: black;">Nebula Green</option>
+                <option value="#5FFB17" style="background-color: #5FFB17; color: black;">Emerald Green</option>
+                <option value="#4CC417" style="background-color: #4CC417; color: black;">Green Apple</option>
+                <option value="#41A317" style="background-color: #41A317; color: white;">Dark Lime Green</option>
+                <option value="#347C17" style="background-color: #347C17; color: white;">Shamrock Green</option>
+                <option value="#4AA02C" style="background-color: #4AA02C; color: white;">Green Pepper</option>
+                <option value="#CCFFBB" style="background-color: #CCFFBB; color: black;">Light Green</option>
+                <option value="#BBEEAA" style="background-color: #BBEEAA; color: black;">Tea Green</option>
+                <option value="#617C58" style="background-color: #617C58; color: white;">Hazel Green</option>
+                <option value="#EAEEE9" style="background-color: #EAEEE9; color: black;">White Ice</option>
+                <option value="#99C68E" style="background-color: #99C68E; color: black;">Frog Green</option>
+                <option value="#B5EAAA" style="background-color: #B5EAAA; color: black;">Green Thumb</option>
+                <option value="#C3FDB8" style="background-color: #C3FDB8; color: black;">Light Jade</option>
+                <option value="#73A16C" style="background-color: #73A16C; color: black;">Dinosaur Green</option>
+                <option value="#347C2C" style="background-color: #347C2C; color: white;">Jungle Green</option>
+                <option value="#8D918D" style="background-color: #8D918D; color: black;">Gunmetal Gray</option>
+                <option value="#F0FFF0" style="background-color: #F0FFF0; color: black;">HoneyDew (W3C)</option>
+                <option value="#DBF9DB" style="background-color: #DBF9DB; color: black;">Light Rose Green</option>
+                <option value="#829F82" style="background-color: #829F82; color: black;">Basil Green</option>
+                <option value="#AADDAA" style="background-color: #AADDAA; color: black;">Granny Smith Apple</option>
+                <option value="#8FBC8F" style="background-color: #8FBC8F; color: black;">DarkSeaGreen (W3C)</option>
+                <option value="#99CC99" style="background-color: #99CC99; color: black;">Eton Blue</option>
+                <option value="#88BB88" style="background-color: #88BB88; color: black;">Dark Sea Green</option>
+                <option value="#77AA77" style="background-color: #77AA77; color: black;">Asparagus</option>
+                <option value="#669966" style="background-color: #669966; color: black;">Russian Green</option>
+                <option value="#558855" style="background-color: #558855; color: white;">Forest Green Web</option>
+                <option value="#98FB98" style="background-color: #98FB98; color: black;">PaleGreen (W3C)</option>
+                <option value="#90EE90" style="background-color: #90EE90; color: black;">LightGreen (W3C)</option>
+                <option value="#98FF98" style="background-color: #98FF98; color: black;">Mint Green</option>
+                <option value="#447744" style="background-color: #447744; color: white;">Fern</option>
+                <option value="#77DD77" style="background-color: #77DD77; color: black;">Pastel Green</option>
+                <option value="#336633" style="background-color: #336633; color: white;">Hunter Green</option>
+                <option value="#228B22" style="background-color: #228B22; color: white;">ForestGreen (W3C)</option>
+                <option value="#32CD32" style="background-color: #32CD32; color: black;">LimeGreen (W3C)</option>
+                <option value="#006400" style="background-color: #006400; color: white;">DarkGreen (W3C)</option>
+                <option value="#008000" style="background-color: #008000; color: white;">Green (W3C)</option>
+                <option value="#00FF00" style="background-color: #00FF00; color: black;">Lime (W3C)</option>
+                <option value="#347235" style="background-color: #347235; color: white;">Medium Forest Green</option>
+                <option value="#056608" style="background-color: #056608; color: white;">Deep Green</option>
+                <option value="#046307" style="background-color: #046307; color: white;">Deep Emerald Green</option>
+                <option value="#4CC552" style="background-color: #4CC552; color: black;">Kelly Green</option>
+                <option value="#27742C" style="background-color: #27742C; color: white;">Racing Green</option>
+                <option value="#16F529" style="background-color: #16F529; color: black;">Neon Green</option>
+                <option value="#57E964" style="background-color: #57E964; color: black;">Stoplight Go Green</option>
+                <option value="#5EFB6E" style="background-color: #5EFB6E; color: black;">Jade Green</option>
+                <option value="#355E3B" style="background-color: #355E3B; color: white;">Hunter Green</option>
+                <option value="#4E9258" style="background-color: #4E9258; color: white;">Fall Forest Green</option>
+                <option value="#12AD2B" style="background-color: #12AD2B; color: white;">Parrot Green</option>
+                <option value="#387C44" style="background-color: #387C44; color: white;">Pine Green</option>
+                <option value="#3EA055" style="background-color: #3EA055; color: white;">Clover Green</option>
+                <option value="#559966" style="background-color: #559966; color: white;">Jungle Green</option>
+                <option value="#33FF66" style="background-color: #33FF66; color: black;">Malachite</option>
+                <option value="#64E986" style="background-color: #64E986; color: black;">Algae Green</option>
+                <option value="#54C571" style="background-color: #54C571; color: black;">Zombie Green</option>
+                <option value="#44FF77" style="background-color: #44FF77; color: black;">Screamin Green</option>
+                <option value="#6AFB92" style="background-color: #6AFB92; color: black;">Dragon Green</option>
+                <option value="#55FF88" style="background-color: #55FF88; color: black;">UFO Green</option>
+                <option value="#50C878" style="background-color: #50C878; color: black;">Emerald</option>
+                <option value="#66FF99" style="background-color: #66FF99; color: black;">Sea Green</option>
+                <option value="#003311" style="background-color: #003311; color: white;">British Racing Green</option>
+                <option value="#A0D6B4" style="background-color: #A0D6B4; color: black;">Turquoise Green</option>
+                <option value="#77FFAA" style="background-color: #77FFAA; color: black;">Light Green</option>
+                <option value="#36F57F" style="background-color: #36F57F; color: black;">Lime Mint Green</option>
+                <option value="#227442" style="background-color: #227442; color: white;">Cactus Green</option>
+                <option value="#88FFBB" style="background-color: #88FFBB; color: black;">Aquamarine</option>
+                <option value="#08A04B" style="background-color: #08A04B; color: white;">Irish Green</option>
+                <option value="#2E8B57" style="background-color: #2E8B57; color: white;">SeaGreen (W3C)</option>
+                <option value="#3CB371" style="background-color: #3CB371; color: black;">MediumSeaGreen (W3C)</option>
+                <option value="#C2E5D3" style="background-color: #C2E5D3; color: black;">Light Mint Green</option>
+                <option value="#00FF7F" style="background-color: #00FF7F; color: black;">SpringGreen (W3C)</option>
+                <option value="#F5FFFA" style="background-color: #F5FFFA; color: black;">MintCream (W3C)</option>
+                <option value="#93E9BE" style="background-color: #93E9BE; color: black;">Aqua Seafoam Green</option>
+                <option value="#99FFCC" style="background-color: #99FFCC; color: black;">Magic Mint</option>
+                <option value="#44AA77" style="background-color: #44AA77; color: black;">Mint</option>
+                <option value="#004422" style="background-color: #004422; color: white;">Dark Forest</option>
+                <option value="#00FF80" style="background-color: #00FF80; color: black;">Ocean Green</option>
+                <option value="#1AA260" style="background-color: #1AA260; color: white;">Chrome Green</option>
+                <option value="#34A56F" style="background-color: #34A56F; color: white;">Earth Green</option>
+                <option value="#00FF88" style="background-color: #00FF88; color: black;">Spring Green</option>
+                <option value="#7C9D8E" style="background-color: #7C9D8E; color: black;">Metallic Green</option>
+                <option value="#026C3D" style="background-color: #026C3D; color: white;">Broccoli Green</option>
+                <option value="#AAF0D1" style="background-color: #AAF0D1; color: black;">Magic Mint</option>
+                <option value="#004225" style="background-color: #004225; color: white;">Lotus Green</option>
+                <option value="#22CE83" style="background-color: #22CE83; color: black;">Isle Of Man Green</option>
+                <option value="#AAFFDD" style="background-color: #AAFFDD; color: black;">Aero Blue</option>
+                <option value="#005533" style="background-color: #005533; color: white;">Deep Jungle Green</option>
+                <option value="#00FF99" style="background-color: #00FF99; color: black;">Medium Spring Green</option>
+                <option value="#00FA9A" style="background-color: #00FA9A; color: black;">MediumSpringGreen (W3C)</option>
+                <option value="#12E193" style="background-color: #12E193; color: black;">Aqua Green</option>
+                <option value="#33BB88" style="background-color: #33BB88; color: black;">Medium Aquamarine</option>
+                <option value="#3EB489" style="background-color: #3EB489; color: black;">Mint</option>
+                <option value="#31906E" style="background-color: #31906E; color: white;">Dark Mint</option>
+                <option value="#306754" style="background-color: #306754; color: white;">Deep Sea Green</option>
+                <option value="#66CDAA" style="background-color: #66CDAA; color: black;">MediumAquaMarine (W3C)</option>
+                <option value="#4E8975" style="background-color: #4E8975; color: white;">Dull Sea Green</option>
+                <option value="#00A36C" style="background-color: #00A36C; color: white;">Jade</option>
+                <option value="#7FFFD4" style="background-color: #7FFFD4; color: black;">Aquamarine (W3C)</option>
+                <option value="#006644" style="background-color: #006644; color: white;">Dartmouth Green</option>
+                <option value="#00FFAA" style="background-color: #00FFAA; color: black;">Caribbean Green</option>
+                <option value="#22CC99" style="background-color: #22CC99; color: black;">Light Sea Green</option>
+                <option value="#007755" style="background-color: #007755; color: white;">Tropical Rain Forest</option>
+                <option value="#7BCCB5" style="background-color: #7BCCB5; color: black;">Blue Green</option>
+                <option value="#1B8A6B" style="background-color: #1B8A6B; color: white;">Elf Green</option>
+                <option value="#00FFBB" style="background-color: #00FFBB; color: black;">Aquamarine</option>
+                <option value="#006A4E" style="background-color: #006A4E; color: white;">Bottle Green</option>
+                <option value="#BBFFEE" style="background-color: #BBFFEE; color: black;">Pale Turquoise</option>
+                <option value="#11DDAA" style="background-color: #11DDAA; color: black;">Medium Turquoise</option>
+                <option value="#008866" style="background-color: #008866; color: white;">Paolo Veronese Green</option>
+                <option value="#009977" style="background-color: #009977; color: white;">Persian Green</option>
+                <option value="#00EEBB" style="background-color: #00EEBB; color: black;">Turquoise Blue</option>
+                <option value="#93FFE8" style="background-color: #93FFE8; color: black;">Light Aquamarine</option>
+                <option value="#01F9C6" style="background-color: #01F9C6; color: black;">Bright Teal</option>
+                <option value="#00AA88" style="background-color: #00AA88; color: white;">Blue Green</option>
+                <option value="#00FFCC" style="background-color: #00FFCC; color: black;">Turquoise</option>
+                <option value="#00BB99" style="background-color: #00BB99; color: white;">Caribbean Green</option>
+                <option value="#1F6357" style="background-color: #1F6357; color: white;">Dark Green Blue</option>
+                <option value="#438D80" style="background-color: #438D80; color: white;">Sea Turtle Green</option>
+                <option value="#00CCAA" style="background-color: #00CCAA; color: black;">Robin Egg Blue</option>
+                <option value="#00DDBB" style="background-color: #00DDBB; color: black;">Turquoise Surf</option>
+                <option value="#00EECC" style="background-color: #00EECC; color: black;">Medium Spring Green</option>
+                <option value="#00FFDD" style="background-color: #00FFDD; color: black;">Bright Turquoise</option>
+                <option value="#00FFDD" style="background-color: #00FFDD; color: black;">Bright Turquoise</option>
+                <option value="#40E0D0" style="background-color: #40E0D0; color: black;">Turquoise (W3C)</option>
+                <option value="#3EA99F" style="background-color: #3EA99F; color: black;">Seafoam Green</option>
+                <option value="#81D8D0" style="background-color: #81D8D0; color: black;">Tiffany Blue</option>
+                <option value="#00DDCC" style="background-color: #00DDCC; color: black;">Robin Egg Blue</option>
+                <option value="#348781" style="background-color: #348781; color: white;">Aquamarine Stone</option>
+                <option value="#11FFEE" style="background-color: #11FFEE; color: black;">Turquoise Blue</option>
+                <option value="#00FFEE" style="background-color: #00FFEE; color: black;">Electric Blue</option>
+                <option value="#20B2AA" style="background-color: #20B2AA; color: black;">LightSeaGreen (W3C)</option>
+                <option value="#48D1CC" style="background-color: #48D1CC; color: black;">MediumTurquoise (W3C)</option>
+                <option value="#00827F" style="background-color: #00827F; color: white;">Teal Green</option>
+                <option value="#E0E5E5" style="background-color: #E0E5E5; color: black;">Light Steel Gray</option>
+                <option value="#F0FFFF" style="background-color: #F0FFFF; color: black;">Azure (W3C)</option>
+                <option value="#99A3A3" style="background-color: #99A3A3; color: black;">Stainless Steel Gray</option>
+                <option value="#EEFFFF" style="background-color: #EEFFFF; color: black;">Azure Mist</option>
+                <option value="#E0FFFF" style="background-color: #E0FFFF; color: black;">LightCyan (W3C)</option>
+                <option value="#CFECEC" style="background-color: #CFECEC; color: black;">Pale Blue Lily</option>
+                <option value="#B3D9D9" style="background-color: #B3D9D9; color: black;">Light Teal</option>
+                <option value="#CCFFFF" style="background-color: #CCFFFF; color: black;">Light Slate</option>
+                <option value="#CCFFFF" style="background-color: #CCFFFF; color: black;">Light Cyan</option>
+                <option value="#CCFFFF" style="background-color: #CCFFFF; color: black;">Light Cyan</option>
+                <option value="#AFEEEE" style="background-color: #AFEEEE; color: black;">PaleTurquoise (W3C)</option>
+                <option value="#92C7C7" style="background-color: #92C7C7; color: black;">Cyan Opaque</option>
+                <option value="#78C7C7" style="background-color: #78C7C7; color: black;">Northern Lights Blue</option>
+                <option value="#3B9C9C" style="background-color: #3B9C9C; color: white;">Deep Sea</option>
+                <option value="#46C7C7" style="background-color: #46C7C7; color: black;">Jellyfish</option>
+                <option value="#55FFFF" style="background-color: #55FFFF; color: black;">Electric Cyan</option>
+                <option value="#22FFFF" style="background-color: #22FFFF; color: black;">Cyan Process</option>
+                <option value="#11FFFF" style="background-color: #11FFFF; color: black;">Cyan Aqua</option>
+                <option value="#033E3E" style="background-color: #033E3E; color: white;">Deep Teal</option>
+                <option value="#045D5D" style="background-color: #045D5D; color: white;">Dark Teal</option>
+                <option value="#045F5F" style="background-color: #045F5F; color: white;">Medium Teal</option>
+                <option value="#0AFFFF" style="background-color: #0AFFFF; color: black;">Bright Cyan</option>
+                <option value="#008080" style="background-color: #008080; color: white;">Teal (W3C)</option>
+                <option value="#008B8B" style="background-color: #008B8B; color: white;">DarkCyan (W3C)</option>
+                <option value="#00FFFF" style="background-color: #00FFFF; color: black;">Cyan or Aqua (W3C)</option>
+                <option value="#57FEFF" style="background-color: #57FEFF; color: black;">Blue Zircon</option>
+                <option value="#50EBEC" style="background-color: #50EBEC; color: black;">Celeste</option>
+                <option value="#48CCCD" style="background-color: #48CCCD; color: black;">Deep Turquoise</option>
+                <option value="#7DFDFE" style="background-color: #7DFDFE; color: black;">Tron Blue</option>
+                <option value="#9AFEFF" style="background-color: #9AFEFF; color: black;">Electric Blue</option>
+                <option value="#8EEBEC" style="background-color: #8EEBEC; color: black;">Blue Lagoon</option>
+                <option value="#307D7E" style="background-color: #307D7E; color: white;">Greenish Blue</option>
+                <option value="#00CED1" style="background-color: #00CED1; color: black;">DarkTurquoise (W3C)</option>
+                <option value="#5F9EA0" style="background-color: #5F9EA0; color: black;">CadetBlue (W3C)</option>
+                <option value="#007C80" style="background-color: #007C80; color: white;">Teal Blue</option>
+                <option value="#5E7D7E" style="background-color: #5E7D7E; color: white;">Grayish Turquoise</option>
+                <option value="#43BFC7" style="background-color: #43BFC7; color: black;">Macaw Blue Green</option>
+                <option value="#4EE2EC" style="background-color: #4EE2EC; color: black;">Blue Diamond</option>
+                <option value="#16E2F5" style="background-color: #16E2F5; color: black;">Bright Turquoise</option>
+                <option value="#44EEFF" style="background-color: #44EEFF; color: black;">Bright Sky Blue</option>
+                <option value="#77BFC7" style="background-color: #77BFC7; color: black;">Blue Hosta</option>
+                <option value="#B0E0E6" style="background-color: #B0E0E6; color: black;">PowderBlue (W3C)</option>
+                <option value="#4C787E" style="background-color: #4C787E; color: white;">Beetle Green</option>
+                <option value="#43C6DB" style="background-color: #43C6DB; color: black;">Blue Turquoise</option>
+                <option value="#C0C6C7" style="background-color: #C0C6C7; color: black;">Gear Steel Gray</option>
+                <option value="#3C565B" style="background-color: #3C565B; color: white;">Blue Moss Green</option>
+                <option value="#33DDFF" style="background-color: #33DDFF; color: black;">Vivid Sky Blue</option>
+                <option value="#25383C" style="background-color: #25383C; color: white;">DarkSlateGray or DarkSlateGrey (W3C)</option>
+                <option value="#00CCFF" style="background-color: #00CCFF; color: black;">Vivid Sky Blue</option>
+                <option value="#14A3C7" style="background-color: #14A3C7; color: white;">Cyan Blue</option>
+                <option value="#22CCFF" style="background-color: #22CCFF; color: black;">Deep Sky Blue Light</option>
+                <option value="#ADD8E6" style="background-color: #ADD8E6; color: black;">LightBlue (W3C)</option>
+                <option value="#BBEEFF" style="background-color: #BBEEFF; color: black;">Powder Blue</option>
+                <option value="#00BFFF" style="background-color: #00BFFF; color: black;">DeepSkyBlue (W3C)</option>
+                <option value="#AFDCEC" style="background-color: #AFDCEC; color: black;">Coral Blue</option>
+                <option value="#BDEDFF" style="background-color: #BDEDFF; color: black;">Robin Egg Blue</option>
+                <option value="#95B9C7" style="background-color: #95B9C7; color: black;">Baby Blue</option>
+                <option value="#11BBFF" style="background-color: #11BBFF; color: black;">Picton Blue</option>
+                <option value="#87CEEB" style="background-color: #87CEEB; color: black;">SkyBlue (W3C)</option>
+                <option value="#2C3539" style="background-color: #2C3539; color: white;">Gunmetal</option>
+                <option value="#B0CFDE" style="background-color: #B0CFDE; color: black;">LightSteelBlue (W3C)</option>
+                <option value="#00AAFF" style="background-color: #00AAFF; color: black;">Spiro Disco Ball</option>
+                <option value="#38ACEC" style="background-color: #38ACEC; color: black;">Butterfly Blue</option>
+                <option value="#3BB9FF" style="background-color: #3BB9FF; color: black;">Midday Blue</option>
+                <option value="#0099EE" style="background-color: #0099EE; color: white;">Vivid Cerulean</option>
+                <option value="#0E87CC" style="background-color: #0E87CC; color: white;">Water Blue</option>
+                <option value="#52595D" style="background-color: #52595D; color: white;">Iron Gray</option>
+                <option value="#3090C7" style="background-color: #3090C7; color: white;">Blue Ivy</option>
+                <option value="#C9DFEC" style="background-color: #C9DFEC; color: black;">Gulf Blue</option>
+                <option value="#87AFC7" style="background-color: #87AFC7; color: black;">Columbia Blue</option>
+                <option value="#BCC6CC" style="background-color: #BCC6CC; color: black;">Metallic Silver</option>
+                <option value="#A0CFEC" style="background-color: #A0CFEC; color: black;">Jeans Blue</option>
+                <option value="#87CEFA" style="background-color: #87CEFA; color: black;">LightSkyBlue (W3C)</option>
+                <option value="#71797E" style="background-color: #71797E; color: white;">Steel Gray</option>
+                <option value="#0088DD" style="background-color: #0088DD; color: white;">Azure Blue</option>
+                <option value="#368BC1" style="background-color: #368BC1; color: white;">Glacial Blue Ice</option>
+                <option value="#ADDFFF" style="background-color: #ADDFFF; color: black;">Light Day Blue</option>
+                <option value="#005288" style="background-color: #005288; color: white;">Cobalt Blue Deep</option>
+                <option value="#005C99" style="background-color: #005C99; color: white;">Catalina Blue</option>
+                <option value="#EBF4FA" style="background-color: #EBF4FA; color: black;">Water</option>
+                <option value="#36454F" style="background-color: #36454F; color: white;">Charcoal Blue</option>
+                <option value="#AADDFF" style="background-color: #AADDFF; color: black;">Pale Cornflower Blue</option>
+                <option value="#0066AA" style="background-color: #0066AA; color: white;">Endeavour Blue</option>
+                <option value="#0070BB" style="background-color: #0070BB; color: white;">Honolulu Blue</option>
+                <option value="#007ACC" style="background-color: #007ACC; color: white;">Cerulean Blue</option>
+                <option value="#004777" style="background-color: #004777; color: white;">Indigo Dye</option>
+                <option value="#659EC7" style="background-color: #659EC7; color: black;">Blue Koi</option>
+                <option value="#29465B" style="background-color: #29465B; color: white;">Dark Blue Gray</option>
+                <option value="#82CAFF" style="background-color: #82CAFF; color: black;">Day Sky Blue</option>
+                <option value="#566D7E" style="background-color: #566D7E; color: white;">Marble Blue</option>
+                <option value="#79BAEC" style="background-color: #79BAEC; color: black;">Denim Blue</option>
+                <option value="#4682B4" style="background-color: #4682B4; color: white;">SteelBlue (W3C)</option>
+                <option value="#5CB3FF" style="background-color: #5CB3FF; color: black;">Crystal Blue</option>
+                <option value="#F0F8FF" style="background-color: #F0F8FF; color: black;">AliceBlue (W3C)</option>
+                <option value="#56A5EC" style="background-color: #56A5EC; color: black;">Iceberg</option>
+                <option value="#488AC7" style="background-color: #488AC7; color: white;">Silk Blue</option>
+                <option value="#001A33" style="background-color: #001A33; color: white;">Oxford Blue</option>
+                <option value="#1E90FF" style="background-color: #1E90FF; color: white;">DodgerBlue (W3C)</option>
+                <option value="#3A3B3C" style="background-color: #3A3B3C; color: white;">Stormy Gray</option>
+                <option value="#686A6C" style="background-color: #686A6C; color: white;">Nardo Gray</option>
+                <option value="#BBCCDD" style="background-color: #BBCCDD; color: black;">Light Steel Blue</option>
+                <option value="#DDEEFF" style="background-color: #DDEEFF; color: black;">Alice Blue</option>
+                <option value="#CCDDEE" style="background-color: #CCDDEE; color: black;">Columbia Blue</option>
+                <option value="#99AABB" style="background-color: #99AABB; color: black;">Cadet Blue</option>
+                <option value="#8899AA" style="background-color: #8899AA; color: black;">Cool Grey</option>
+                <option value="#778899" style="background-color: #778899; color: black;">LightSlateGray or LightSlateGrey (W3C)</option>
+                <option value="#778899" style="background-color: #778899; color: black;">Light Slate Grey</option>
+                <option value="#708090" style="background-color: #708090; color: white;">SlateGray or SlateGrey (W3C)</option>
+                <option value="#667788" style="background-color: #667788; color: white;">Light Slate Gray</option>
+                <option value="#556677" style="background-color: #556677; color: white;">Slate Gray</option>
+                <option value="#445566" style="background-color: #445566; color: white;">Outer Space</option>
+                <option value="#334455" style="background-color: #334455; color: white;">Charcoal</option>
+                <option value="#99CCFF" style="background-color: #99CCFF; color: black;">Light Sky Blue</option>
+                <option value="#223344" style="background-color: #223344; color: white;">Yankees Blue</option>
+                <option value="#112233" style="background-color: #112233; color: white;">Dark Gunmetal</option>
+                <option value="#357EC7" style="background-color: #357EC7; color: white;">Windows Blue</option>
+                <option value="#123456" style="background-color: #123456; color: white;">Deep Sea Blue</option>
+                <option value="#002244" style="background-color: #002244; color: white;">Yankees Blue</option>
+                <option value="#003366" style="background-color: #003366; color: white;">Prussian Blue</option>
+                <option value="#AABBCC" style="background-color: #AABBCC; color: black;">Light Blue Grey</option>
+                <option value="#1589FF" style="background-color: #1589FF; color: white;">Neon Blue</option>
+                <option value="#002E5D" style="background-color: #002E5D; color: white;">Space Cadet</option>
+                <option value="#2B547E" style="background-color: #2B547E; color: white;">Blue Jay</option>
+                <option value="#003E7E" style="background-color: #003E7E; color: white;">Dark Cerulean</option>
+                <option value="#1974D2" style="background-color: #1974D2; color: white;">Bright Navy Blue</option>
+                <option value="#98AFC7" style="background-color: #98AFC7; color: black;">Blue Gray</option>
+                <option value="#157DEC" style="background-color: #157DEC; color: white;">Blue Dress</option>
+                <option value="#B4CFEC" style="background-color: #B4CFEC; color: black;">Pastel Blue</option>
+                <option value="#C2DFFF" style="background-color: #C2DFFF; color: black;">Sea Blue</option>
+                <option value="#1569C7" style="background-color: #1569C7; color: white;">Blue Eyes</option>
+                <option value="#657383" style="background-color: #657383; color: white;">Slate Granite Gray</option>
+                <option value="#DBE9FA" style="background-color: #DBE9FA; color: black;">White Blue</option>
+                <option value="#6D7B8D" style="background-color: #6D7B8D; color: white;">Rat Gray</option>
+                <option value="#B7CEEC" style="background-color: #B7CEEC; color: black;">Blue Angel</option>
+                <option value="#88BBFF" style="background-color: #88BBFF; color: black;">Baby Blue Eyes</option>
+                <option value="#C6DEFF" style="background-color: #C6DEFF; color: black;">Heavenly Blue</option>
+                <option value="#616D7E" style="background-color: #616D7E; color: white;">Jet Gray</option>
+                <option value="#77AAFF" style="background-color: #77AAFF; color: black;">Sky Blue</option>
+                <option value="#888B90" style="background-color: #888B90; color: black;">Sheet Metal</option>
+                <option value="#6495ED" style="background-color: #6495ED; color: black;">CornflowerBlue (W3C)</option>
+                <option value="#0059FF" style="background-color: #0059FF; color: white;">Dark Sky Blue</option>
+                <option value="#646D7E" style="background-color: #646D7E; color: white;">Mist Blue</option>
+                <option value="#0041C2" style="background-color: #0041C2; color: white;">Blueberry Blue</option>
+                <option value="#6699FF" style="background-color: #6699FF; color: black;">French Sky Blue</option>
+                <option value="#2F539B" style="background-color: #2F539B; color: white;">Estoril Blue</option>
+                <option value="#001133" style="background-color: #001133; color: white;">Deep Space Blue</option>
+                <option value="#DADBDD" style="background-color: #DADBDD; color: black;">Silver White</option>
+                <option value="#6698FF" style="background-color: #6698FF; color: black;">Sky Blue Dress</option>
+                <option value="#838996" style="background-color: #838996; color: black;">Roman Silver</option>
+                <option value="#728FCE" style="background-color: #728FCE; color: black;">Light Purple Blue</option>
+                <option value="#4863A0" style="background-color: #4863A0; color: white;">Azure Blue</option>
+                <option value="#2B3856" style="background-color: #2B3856; color: white;">Dark Slate</option>
+                <option value="#2B65EC" style="background-color: #2B65EC; color: white;">Ocean Blue</option>
+                <option value="#5588FF" style="background-color: #5588FF; color: black;">Blueberry</option>
+                <option value="#306EFF" style="background-color: #306EFF; color: white;">Blue Ribbon</option>
+                <option value="#2B60DE" style="background-color: #2B60DE; color: white;">Balloon Blue</option>
+                <option value="#2554C7" style="background-color: #2554C7; color: white;">Sapphire Blue</option>
+                <option value="#4477FF" style="background-color: #4477FF; color: white;">Cornflower Blue</option>
+                <option value="#15317E" style="background-color: #15317E; color: white;">Lapis Blue</option>
+                <option value="#4169E1" style="background-color: #4169E1; color: white;">RoyalBlue (W3C)</option>
+                <option value="#3366FF" style="background-color: #3366FF; color: white;">Blue Crayola</option>
+                <option value="#A8A9AD" style="background-color: #A8A9AD; color: black;">Chrome Aluminum</option>
+                <option value="#737CA1" style="background-color: #737CA1; color: white;">Slate Blue Gray</option>
+                <option value="#1F45FC" style="background-color: #1F45FC; color: white;">Blue Orchid</option>
+                <option value="#0020C2" style="background-color: #0020C2; color: white;">Cobalt Blue</option>
+                <option value="#040720" style="background-color: #040720; color: white;">Black Blue</option>
+                <option value="#151B54" style="background-color: #151B54; color: white;">Night Blue</option>
+                <option value="#5865F2" style="background-color: #5865F2; color: white;">Blurple</option>
+                <option value="#4E5180" style="background-color: #4E5180; color: white;">Purple Navy</option>
+                <option value="#151B8D" style="background-color: #151B8D; color: white;">Denim Dark Blue</option>
+                <option value="#D5D6EA" style="background-color: #D5D6EA; color: black;">Pastel Light Blue</option>
+                <option value="#E3E4FA" style="background-color: #E3E4FA; color: black;">Lavender Blue</option>
+                <option value="#6667AB" style="background-color: #6667AB; color: white;">Very Peri</option>
+                <option value="#0002FF" style="background-color: #0002FF; color: white;">Samco Blue</option>
+                <option value="#4D4D4F" style="background-color: #4D4D4F; color: white;">Dark Steampunk</option>
+                <option value="#F8F8FF" style="background-color: #F8F8FF; color: black;">GhostWhite (W3C)</option>
+                <option value="#E6E6FA" style="background-color: #E6E6FA; color: black;">Lavender (W3C)</option>
+                <option value="#CCCCFF" style="background-color: #CCCCFF; color: black;">Periwinkle</option>
+                <option value="#8686AF" style="background-color: #8686AF; color: black;">Pastel Indigo</option>
+                <option value="#7575CF" style="background-color: #7575CF; color: white;">Periwinkle Purple</option>
+                <option value="#191970" style="background-color: #191970; color: white;">MidnightBlue (W3C)</option>
+                <option value="#0909FF" style="background-color: #0909FF; color: white;">Bright Blue</option>
+                <option value="#000080" style="background-color: #000080; color: white;">Navy (W3C)</option>
+                <option value="#00008B" style="background-color: #00008B; color: white;">DarkBlue (W3C)</option>
+                <option value="#0000A0" style="background-color: #0000A0; color: white;">New Midnight Blue</option>
+                <option value="#0000A5" style="background-color: #0000A5; color: white;">Earth Blue</option>
+                <option value="#0000CD" style="background-color: #0000CD; color: white;">MediumBlue (W3C)</option>
+                <option value="#0000FF" style="background-color: #0000FF; color: white;">Blue (W3C)</option>
+                <option value="#5453A6" style="background-color: #5453A6; color: white;">Deep Periwinkle</option>
+                <option value="#736AFF" style="background-color: #736AFF; color: white;">Light Slate Blue</option>
+                <option value="#6960EC" style="background-color: #6960EC; color: white;">Blue Lotus</option>
+                <option value="#1100FF" style="background-color: #1100FF; color: white;">Electric Indigo</option>
+                <option value="#2916F5" style="background-color: #2916F5; color: white;">Canary Blue</option>
+                <option value="#342D7E" style="background-color: #342D7E; color: white;">Blue Whale</option>
+                <option value="#5E5A80" style="background-color: #5E5A80; color: white;">Grape</option>
+                <option value="#6A5ACD" style="background-color: #6A5ACD; color: white;">SlateBlue (W3C)</option>
+                <option value="#483D8B" style="background-color: #483D8B; color: white;">DarkSlateBlue (W3C)</option>
+                <option value="#7B68EE" style="background-color: #7B68EE; color: white;">MediumSlateBlue (W3C)</option>
+                <option value="#2200EE" style="background-color: #2200EE; color: white;">Han Blue</option>
+                <option value="#C8C4DF" style="background-color: #C8C4DF; color: black;">Viola</option>
+                <option value="#5539CC" style="background-color: #5539CC; color: white;">Dark Blurple</option>
+                <option value="#3300DD" style="background-color: #3300DD; color: white;">Electric Ultramarine</option>
+                <option value="#6633FF" style="background-color: #6633FF; color: white;">Purple Heart</option>
+                <option value="#9172EC" style="background-color: #9172EC; color: black;">Crocus Purple</option>
+                <option value="#DCD0FF" style="background-color: #DCD0FF; color: black;">Pale Lilac</option>
+                <option value="#8467D7" style="background-color: #8467D7; color: white;">Light Purple</option>
+                <option value="#9E7BFF" style="background-color: #9E7BFF; color: black;">Purple Mimosa</option>
+                <option value="#7744FF" style="background-color: #7744FF; color: white;">Medium Slate Blue</option>
+                <option value="#7A5DC7" style="background-color: #7A5DC7; color: white;">Purple Sage Bush</option>
+                <option value="#8855FF" style="background-color: #8855FF; color: white;">Medium Purple</option>
+                <option value="#4E387E" style="background-color: #4E387E; color: white;">Purple Haze</option>
+                <option value="#9370DB" style="background-color: #9370DB; color: black;">MediumPurple (W3C)</option>
+                <option value="#9966FF" style="background-color: #9966FF; color: black;">Amethyst</option>
+                <option value="#4400CC" style="background-color: #4400CC; color: white;">Violet Blue</option>
+                <option value="#AA77FF" style="background-color: #AA77FF; color: black;">Bright Lavender</option>
+                <option value="#7F38EC" style="background-color: #7F38EC; color: white;">Lovely Purple</option>
+                <option value="#B09FCA" style="background-color: #B09FCA; color: black;">Rose Purple</option>
+                <option value="#893BFF" style="background-color: #893BFF; color: white;">Aztech Purple</option>
+                <option value="#822EFF" style="background-color: #822EFF; color: white;">Blue Magenta</option>
+                <option value="#6C2DC7" style="background-color: #6C2DC7; color: white;">Purple Amethyst</option>
+                <option value="#BB88FF" style="background-color: #BB88FF; color: black;">Lavender</option>
+                <option value="#461B7E" style="background-color: #461B7E; color: white;">Purple Monster</option>
+                <option value="#2E1A47" style="background-color: #2E1A47; color: white;">Midnight Purple</option>
+                <option value="#5500BB" style="background-color: #5500BB; color: white;">Indigo</option>
+                <option value="#967BB6" style="background-color: #967BB6; color: black;">Lavender Purple</option>
+                <option value="#8E35EF" style="background-color: #8E35EF; color: white;">Purple Plum</option>
+                <option value="#CC99FF" style="background-color: #CC99FF; color: black;">Mauve</option>
+                <option value="#663399" style="background-color: #663399; color: white;">RebeccaPurple (W3C)</option>
+                <option value="#734F96" style="background-color: #734F96; color: white;">Dark Lavender</option>
+                <option value="#8A2BE2" style="background-color: #8A2BE2; color: white;">BlueViolet (W3C)</option>
+                <option value="#6F2DA8" style="background-color: #6F2DA8; color: white;">Bright Grape</option>
+                <option value="#842DCE" style="background-color: #842DCE; color: white;">Clematis Violet</option>
+                <option value="#4B0082" style="background-color: #4B0082; color: white;">Indigo (W3C)</option>
+                <option value="#6A0DAD" style="background-color: #6A0DAD; color: white;">Bright Purple</option>
+                <option value="#A23BEC" style="background-color: #A23BEC; color: white;">Jasmine Purple</option>
+                <option value="#B041FF" style="background-color: #B041FF; color: white;">Purple Daffodil</option>
+                <option value="#8D38C9" style="background-color: #8D38C9; color: white;">Purple Violet</option>
+                <option value="#DDAAFF" style="background-color: #DDAAFF; color: black;">Brilliant Lavender</option>
+                <option value="#6600AA" style="background-color: #6600AA; color: white;">Persian Indigo</option>
+                <option value="#571B7E" style="background-color: #571B7E; color: white;">Purple Iris</option>
+                <option value="#E0B0FF" style="background-color: #E0B0FF; color: black;">Mauve</option>
+                <option value="#9D00FF" style="background-color: #9D00FF; color: white;">Neon Purple</option>
+                <option value="#FEFCFF" style="background-color: #FEFCFF; color: black;">Milk White</option>
+                <option value="#9932CC" style="background-color: #9932CC; color: white;">DarkOrchid (W3C)</option>
+                <option value="#9400D3" style="background-color: #9400D3; color: white;">DarkViolet (W3C)</option>
+                <option value="#C45AEC" style="background-color: #C45AEC; color: black;">Tyrian Purple</option>
+                <option value="#D462FF" style="background-color: #D462FF; color: black;">Heliotrope Purple</option>
+                <option value="#B666D2" style="background-color: #B666D2; color: black;">Rich Lilac</option>
+                <option value="#A74AC7" style="background-color: #A74AC7; color: white;">Purple Flower</option>
+                <option value="#EEBBFF" style="background-color: #EEBBFF; color: black;">Pale Plum</option>
+                <option value="#DFD3E3" style="background-color: #DFD3E3; color: black;">Purple White</option>
+                <option value="#D891EF" style="background-color: #D891EF; color: black;">Bright Lilac</option>
+                <option value="#6A287E" style="background-color: #6A287E; color: white;">Purple Jam</option>
+                <option value="#770099" style="background-color: #770099; color: white;">Dark Violet</option>
+                <option value="#BA55D3" style="background-color: #BA55D3; color: black;">MediumOrchid (W3C)</option>
+                <option value="#86608E" style="background-color: #86608E; color: white;">French Lilac</option>
+                <option value="#36013F" style="background-color: #36013F; color: white;">Deep Purple</option>
+                <option value="#E9CFEC" style="background-color: #E9CFEC; color: black;">Periwinkle Pink</option>
+                <option value="#FCDFFF" style="background-color: #FCDFFF; color: black;">Cotton Candy</option>
+                <option value="#E6A9EC" style="background-color: #E6A9EC; color: black;">Blush Pink</option>
+                <option value="#F9B7FF" style="background-color: #F9B7FF; color: black;">Blossom Pink</option>
+                <option value="#C38EC7" style="background-color: #C38EC7; color: black;">Purple Dragon</option>
+                <option value="#4B0150" style="background-color: #4B0150; color: white;">Dark Purple</option>
+                <option value="#E238EC" style="background-color: #E238EC; color: white;">Crimson Purple</option>
+                <option value="#F433FF" style="background-color: #F433FF; color: black;">Bright Neon Pink</option>
+                <option value="#B048B5" style="background-color: #B048B5; color: white;">Orchid Purple</option>
+                <option value="#C6AEC7" style="background-color: #C6AEC7; color: black;">Wisteria Purple</option>
+                <option value="#D2B9D3" style="background-color: #D2B9D3; color: black;">Purple Thistle</option>
+                <option value="#583759" style="background-color: #583759; color: white;">Plum Purple</option>
+                <option value="#FFEEFF" style="background-color: #FFEEFF; color: black;">Magnolia</option>
+                <option value="#D8BFD8" style="background-color: #D8BFD8; color: black;">Thistle (W3C)</option>
+                <option value="#FFDDFF" style="background-color: #FFDDFF; color: black;">Pale Magenta</option>
+                <option value="#C8A2C8" style="background-color: #C8A2C8; color: black;">Lilac</option>
+                <option value="#FFCCFF" style="background-color: #FFCCFF; color: black;">Classic Rose</option>
+                <option value="#FFCCFF" style="background-color: #FFCCFF; color: black;">Classic Rose</option>
+                <option value="#FFCCFF" style="background-color: #FFCCFF; color: black;">Pink Lavender</option>
+                <option value="#FFCCFF" style="background-color: #FFCCFF; color: black;">Pink Lavender</option>
+                <option value="#EEBBEE" style="background-color: #EEBBEE; color: black;">Thistle</option>
+                <option value="#DDAADD" style="background-color: #DDAADD; color: black;">Plum</option>
+                <option value="#CC99CC" style="background-color: #CC99CC; color: black;">Wisteria</option>
+                <option value="#FFBBFF" style="background-color: #FFBBFF; color: black;">Brilliant Lavender</option>
+                <option value="#BB88BB" style="background-color: #BB88BB; color: black;">Lilac</option>
+                <option value="#DDA0DD" style="background-color: #DDA0DD; color: black;">Plum (W3C)</option>
+                <option value="#AA77AA" style="background-color: #AA77AA; color: black;">Purple Mountain Majesty</option>
+                <option value="#7E587E" style="background-color: #7E587E; color: white;">Viola Purple</option>
+                <option value="#996699" style="background-color: #996699; color: white;">Amethyst Purple</option>
+                <option value="#FFAAFF" style="background-color: #FFAAFF; color: black;">Plum</option>
+                <option value="#FFAAFF" style="background-color: #FFAAFF; color: black;">Mauve</option>
+                <option value="#885588" style="background-color: #885588; color: white;">Plum Purple</option>
+                <option value="#FF99FF" style="background-color: #FF99FF; color: black;">Mauve</option>
+                <option value="#FF99FF" style="background-color: #FF99FF; color: black;">Rich Brilliant Lavender</option>
+                <option value="#774477" style="background-color: #774477; color: white;">Eggplant</option>
+                <option value="#EE82EE" style="background-color: #EE82EE; color: black;">Violet (W3C)</option>
+                <option value="#FF88FF" style="background-color: #FF88FF; color: black;">Lavender Rose</option>
+                <option value="#663366" style="background-color: #663366; color: white;">Grape Purple</option>
+                <option value="#FF77FF" style="background-color: #FF77FF; color: black;">Fuchsia Pink</option>
+                <option value="#FF66FF" style="background-color: #FF66FF; color: black;">Ultra Pink</option>
+                <option value="#FF55FF" style="background-color: #FF55FF; color: black;">Brilliant Rose</option>
+                <option value="#FF44FF" style="background-color: #FF44FF; color: black;">Psychedelic Purple</option>
+                <option value="#FF33FF" style="background-color: #FF33FF; color: black;">Fuchsia</option>
+                <option value="#FF22FF" style="background-color: #FF22FF; color: white;">Hot Magenta</option>
+                <option value="#800080" style="background-color: #800080; color: white;">Purple (W3C)</option>
+                <option value="#880088" style="background-color: #880088; color: white;">Dark Magenta</option>
+                <option value="#8B008B" style="background-color: #8B008B; color: white;">DarkMagenta (W3C)</option>
+                <option value="#FF00FF" style="background-color: #FF00FF; color: white;">Magenta or Fuchsia (W3C)</option>
+                <option value="#DA70D6" style="background-color: #DA70D6; color: black;">Orchid (W3C)</option>
+                <option value="#FF11EE" style="background-color: #FF11EE; color: white;">Razzle Dazzle Rose</option>
+                <option value="#DF73D4" style="background-color: #DF73D4; color: black;">Deep Mauve</option>
+                <option value="#F2A2E8" style="background-color: #F2A2E8; color: black;">Pastel Purple</option>
+                <option value="#FF00DD" style="background-color: #FF00DD; color: white;">Shocking Pink</option>
+                <option value="#FF88EE" style="background-color: #FF88EE; color: black;">Fuchsia Pink</option>
+                <option value="#EE00CC" style="background-color: #EE00CC; color: white;">Purple Pizzazz</option>
+                <option value="#DD00BB" style="background-color: #DD00BB; color: white;">Deep Magenta</option>
+                <option value="#CC00AA" style="background-color: #CC00AA; color: white;">Vivid Cerise</option>
+                <option value="#BB0099" style="background-color: #BB0099; color: white;">Medium Red Violet</option>
+                <option value="#AA0088" style="background-color: #AA0088; color: white;">Mardi Gras</option>
+                <option value="#990077" style="background-color: #990077; color: white;">Flirt</option>
+                <option value="#990077" style="background-color: #990077; color: white;">Purple Heart</option>
+                <option value="#FFBBEE" style="background-color: #FFBBEE; color: black;">Pink Lace</option>
+                <option value="#FF77DD" style="background-color: #FF77DD; color: black;">Hot Magenta</option>
+                <option value="#880066" style="background-color: #880066; color: white;">Grape</option>
+                <option value="#770055" style="background-color: #770055; color: white;">Patriarch</option>
+                <option value="#FF66CC" style="background-color: #FF66CC; color: black;">Orchid Pink</option>
+                <option value="#B93B8F" style="background-color: #B93B8F; color: white;">Pink Plum</option>
+                <option value="#660044" style="background-color: #660044; color: white;">Byzantium</option>
+                <option value="#D291BC" style="background-color: #D291BC; color: black;">Pastel Violet</option>
+                <option value="#7D0552" style="background-color: #7D0552; color: white;">Plum Velvet</option>
+                <option value="#C71585" style="background-color: #C71585; color: white;">MediumVioletRed (W3C)</option>
+                <option value="#C12283" style="background-color: #C12283; color: white;">Dark Carnation Pink</option>
+                <option value="#F535AA" style="background-color: #F535AA; color: white;">Neon Pink</option>
+                <option value="#E3319D" style="background-color: #E3319D; color: white;">Dimorphotheca Magenta</option>
+                <option value="#FFAADD" style="background-color: #FFAADD; color: black;">Cotton Candy</option>
+                <option value="#FF55BB" style="background-color: #FF55BB; color: black;">Brilliant Rose</option>
+                <option value="#550033" style="background-color: #550033; color: white;">Pansy Purple</option>
+                <option value="#AA0066" style="background-color: #AA0066; color: white;">Jazzberry Jam</option>
+                <option value="#E759AC" style="background-color: #E759AC; color: black;">Royal Pink</option>
+                <option value="#FF33AA" style="background-color: #FF33AA; color: white;">Chrome Pink</option>
+                <option value="#CC338B" style="background-color: #CC338B; color: white;">Magenta Pink</option>
+                <option value="#550A35" style="background-color: #550A35; color: white;">Purple Lily</option>
+                <option value="#DA1884" style="background-color: #DA1884; color: white;">Barbie Pink</option>
+                <option value="#FF44AA" style="background-color: #FF44AA; color: black;">Rose Pink</option>
+                <option value="#FF1493" style="background-color: #FF1493; color: white;">DeepPink (W3C)</option>
+                <option value="#FD349C" style="background-color: #FD349C; color: white;">Neon Hot Pink</option>
+                <option value="#614051" style="background-color: #614051; color: white;">Eggplant</option>
+                <option value="#872657" style="background-color: #872657; color: white;">Dark Raspberry</option>
+                <option value="#FF0080" style="background-color: #FF0080; color: white;">Red Magenta</option>
+                <option value="#FF99CC" style="background-color: #FF99CC; color: black;">Baker Miller Pink</option>
+                <option value="#FF69B4" style="background-color: #FF69B4; color: black;">HotPink (W3C)</option>
+                <option value="#F660AB" style="background-color: #F660AB; color: black;">Dark Hot Pink</option>
+                <option value="#FF3399" style="background-color: #FF3399; color: white;">Persian Rose</option>
+                <option value="#7D0541" style="background-color: #7D0541; color: white;">Plum Pie</option>
+                <option value="#440022" style="background-color: #440022; color: white;">Tyrian Purple</option>
+                <option value="#FF007F" style="background-color: #FF007F; color: white;">Bright Pink</option>
+                <option value="#810541" style="background-color: #810541; color: white;">Purple Maroon</option>
+                <option value="#A17188" style="background-color: #A17188; color: black;">Rosy</option>
+                <option value="#E45E9D" style="background-color: #E45E9D; color: black;">Pink Cupcake</option>
+                <option value="#F52887" style="background-color: #F52887; color: white;">Hot Deep Pink</option>
+                <option value="#BB0055" style="background-color: #BB0055; color: white;">Cerise</option>
+                <option value="#E4287C" style="background-color: #E4287C; color: white;">Pink Lemonade</option>
+                <option value="#F6358A" style="background-color: #F6358A; color: white;">Violet Red</option>
+                <option value="#C25283" style="background-color: #C25283; color: white;">Bashful Pink</option>
+                <option value="#CA226B" style="background-color: #CA226B; color: white;">Pink Violet</option>
+                <option value="#C12267" style="background-color: #C12267; color: white;">Burnt Pink</option>
+                <option value="#FF88BB" style="background-color: #FF88BB; color: black;">Carnation Pink</option>
+                <option value="#C12869" style="background-color: #C12869; color: white;">Rogue Pink</option>
+                <option value="#E38AAE" style="background-color: #E38AAE; color: black;">Cadillac Pink</option>
+                <option value="#FDEEF4" style="background-color: #FDEEF4; color: black;">Pearl</option>
+                <option value="#FFB2D0" style="background-color: #FFB2D0; color: black;">Powder Pink</option>
+                <option value="#E30B5D" style="background-color: #E30B5D; color: white;">Raspberry</option>
+                <option value="#FF77AA" style="background-color: #FF77AA; color: black;">Tickle Me Pink</option>
+                <option value="#B3446C" style="background-color: #B3446C; color: white;">Raspberry Purple</option>
+                <option value="#EBDDE2" style="background-color: #EBDDE2; color: black;">Lavender Pinocchio</option>
+                <option value="#FDD7E4" style="background-color: #FDD7E4; color: black;">Pig Pink</option>
+                <option value="#C21E56" style="background-color: #C21E56; color: white;">Rose Red</option>
+                <option value="#FFF0F5" style="background-color: #FFF0F5; color: black;">LavenderBlush (W3C)</option>
+                <option value="#34282C" style="background-color: #34282C; color: white;">Charcoal</option>
+                <option value="#0C090A" style="background-color: #0C090A; color: white;">Night</option>
+                <option value="#FF6699" style="background-color: #FF6699; color: black;">Hot Pink</option>
+                <option value="#330011" style="background-color: #330011; color: white;">Dark Purple</option>
+                <option value="#CC0044" style="background-color: #CC0044; color: white;">Carmine</option>
+                <option value="#7E354D" style="background-color: #7E354D; color: white;">Velvet Maroon</option>
+                <option value="#DB7093" style="background-color: #DB7093; color: black;">PaleVioletRed (W3C)</option>
+                <option value="#C25A7C" style="background-color: #C25A7C; color: white;">Tulip Pink</option>
+                <option value="#F778A1" style="background-color: #F778A1; color: black;">Carnation Pink</option>
+                <option value="#E56E94" style="background-color: #E56E94; color: black;">Blush Red</option>
+                <option value="#D16587" style="background-color: #D16587; color: black;">Purple Pink</option>
+                <option value="#FF5588" style="background-color: #FF5588; color: black;">Brink Pink</option>
+                <option value="#E75480" style="background-color: #E75480; color: black;">Dark Pink</option>
+                <option value="#915F6D" style="background-color: #915F6D; color: white;">Mauve Taupe</option>
+                <option value="#FF4477" style="background-color: #FF4477; color: black;">Wild Watermelon</option>
+                <option value="#560319" style="background-color: #560319; color: white;">Dark Scarlet</option>
+                <option value="#FF3366" style="background-color: #FF3366; color: white;">Radical Red</option>
+                <option value="#800020" style="background-color: #800020; color: white;">Dark Burgundy</option>
+                <option value="#7F525D" style="background-color: #7F525D; color: white;">Dull Purple</option>
+                <option value="#C32148" style="background-color: #C32148; color: white;">Bright Maroon</option>
+                <option value="#3F000F" style="background-color: #3F000F; color: white;">Chocolate Brown</option>
+                <option value="#DD0033" style="background-color: #DD0033; color: white;">Crimson Glory</option>
+                <option value="#E7A1B0" style="background-color: #E7A1B0; color: black;">Rose Pink or Pink Rose</option>
+                <option value="#E5788F" style="background-color: #E5788F; color: black;">Pastel Rose</option>
+                <option value="#CC7A8B" style="background-color: #CC7A8B; color: black;">Dusky Pink</option>
+                <option value="#FA2A55" style="background-color: #FA2A55; color: white;">Red Pink</option>
+                <option value="#FAAFBE" style="background-color: #FAAFBE; color: black;">Donut Pink</option>
+                <option value="#DC143C" style="background-color: #DC143C; color: white;">Crimson (W3C)</option>
+                <option value="#C48793" style="background-color: #C48793; color: black;">Lipstick Pink</option>
+                <option value="#A70D2A" style="background-color: #A70D2A; color: white;">Carbon Red</option>
+                <option value="#8C001A" style="background-color: #8C001A; color: white;">Burgundy</option>
+                <option value="#F3E8EA" style="background-color: #F3E8EA; color: black;">Red White</option>
+                <option value="#FFC0CB" style="background-color: #FFC0CB; color: black;">Pink (W3C)</option>
+                <option value="#FC6C85" style="background-color: #FC6C85; color: black;">Watermelon Pink</option>
+                <option value="#504A4B" style="background-color: #504A4B; color: white;">Gray Wolf</option>
+                <option value="#A24857" style="background-color: #A24857; color: white;">Light Maroon</option>
+                <option value="#565051" style="background-color: #565051; color: white;">Vampire Gray</option>
+                <option value="#FFB6C1" style="background-color: #FFB6C1; color: black;">LightPink (W3C)</option>
+                <option value="#FAAFBA" style="background-color: #FAAFBA; color: black;">Baby Pink</option>
+                <option value="#800517" style="background-color: #800517; color: white;">Deep Red</option>
+                <option value="#EE0022" style="background-color: #EE0022; color: white;">Red Devil</option>
+                <option value="#D58A94" style="background-color: #D58A94; color: black;">Dusty Pink</option>
+                <option value="#E799A3" style="background-color: #E799A3; color: black;">Pink Daisy</option>
+                <option value="#463E3F" style="background-color: #463E3F; color: white;">Black Eel</option>
+                <option value="#C48189" style="background-color: #C48189; color: black;">Pink Brown</option>
+                <option value="#990012" style="background-color: #990012; color: white;">Red Wine or Wine Red</option>
+                <option value="#413839" style="background-color: #413839; color: white;">Black Cat</option>
+                <option value="#F9A7B0" style="background-color: #F9A7B0; color: black;">Flamingo Pink</option>
+                <option value="#F67280" style="background-color: #F67280; color: black;">Pastel Red</option>
+                <option value="#F2D4D7" style="background-color: #F2D4D7; color: black;">Pale Pink</option>
+                <option value="#FFB8BF" style="background-color: #FFB8BF; color: black;">Soft Pink</option>
+                <option value="#9F000F" style="background-color: #9F000F; color: white;">Cranberry</option>
+                <option value="#7F4E52" style="background-color: #7F4E52; color: white;">Rosy-Finch</option>
+                <option value="#FFE6E8" style="background-color: #FFE6E8; color: black;">Blush</option>
+                <option value="#FEA3AA" style="background-color: #FEA3AA; color: black;">Pastel Pink</option>
+                <option value="#C83F49" style="background-color: #C83F49; color: white;">Strawberry Red</option>
+                <option value="#FF0011" style="background-color: #FF0011; color: white;">Torch Red</option>
+                <option value="#F70D1A" style="background-color: #F70D1A; color: white;">Ferrari Red</option>
+                <option value="#7E191B" style="background-color: #7E191B; color: white;">Vermilion</option>
+                <option value="#C08081" style="background-color: #C08081; color: black;">Old Rose</option>
+                <option value="#106710" style="background-color: #106710; color: white;">1067!!!!!!!!!!!!</option>
+            
+
+            <label for="comments">Any comments?</label>
+            <textarea id="comments" name="comments"></textarea>
+
+            <input type="submit" value="Submit Questionnaire">
+        </form>
+    </div>
 </body>
 </html>
